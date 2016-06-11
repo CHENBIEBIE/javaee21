@@ -1,4 +1,4 @@
-package com.kaishengit.web;
+package com.kaishengit.web.web;
 
 
 import javax.servlet.ServletException;
