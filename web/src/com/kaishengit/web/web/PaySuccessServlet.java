@@ -1,6 +1,5 @@
 package com.kaishengit.web.web;
 
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,12 +7,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-@WebServlet("/rain")
-public class HomeServlet extends HttpServlet{
+@WebServlet("/pay/suc")
+public class PaySuccessServlet extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("hello servlet");
+        req.getRequestDispatcher("/WEB-INF/views/paysuc.jsp").forward(req,resp);
     }
 }
