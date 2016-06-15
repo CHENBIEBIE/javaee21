@@ -1,5 +1,7 @@
 package com.kaishengit.web.web;
 
+import com.kaishengit.web.entity.User;
+import com.kaishengit.web.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -37,7 +39,14 @@ public class LoginServlet extends HttpServlet{
         if(captcha !=null && captcha.equalsIgnoreCase(sessionCaptcha)){
             String username = req.getParameter("username");
             String password = req.getParameter("password");
-            logger.debug("{}登陆成功",username);
+
+            UserService userService = new UserService();
+            User user = userService.login(username,password);
+
+
+            //logger.debug("{}登陆成功",username);
+
+
         }else{
             //验证码错误
             //logger.warn("验证码错误");

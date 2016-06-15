@@ -21,4 +21,9 @@ public class ConnectionManager {
         }
         return null;
     }
+
+
+    public static boolean getDataSource() {
+        return false;
+    }
 }

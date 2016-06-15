@@ -10,7 +10,7 @@ public class CodeTestCase {
         String password ="123123";
 
         String salt ="dsjhj@##$@#%";
-        password = DigestUtils.md5Hex(password+salt);
+        password = DigestUtils.md5Hex(password);
 
         System.out.print(password);
     }
