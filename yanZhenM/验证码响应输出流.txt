@@ -1,0 +1,32 @@
+package com.kaishengit.web.web;
+
+
+import org.patchca.color.SingleColorFactory;
+import org.patchca.filter.predefined.CurvesRippleFilterFactory;
+import org.patchca.service.ConfigurableCaptchaService;
+import org.patchca.utils.encoder.EncoderHelper;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.awt.*;
+import java.io.IOException;
+import java.io.OutputStream;
+
+@WebServlet("/captcha.png")
+public class CaptchaServlet extends HttpServlet{
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        ConfigurableCaptchaService cs = new ConfigurableCaptchaService();
+        cs.setColorFactory(new SingleColorFactory(new Color(67,78,170)));
+        cs.setFilterFactory(new CurvesRippleFilterFactory(cs.getColorFactory()));
+
+        OutputStream outputStream =resp.getOutputStream();//响应输出流
+        EncoderHelper.getChallangeAndWriteImage(cs,"png",outputStream);
+        outputStream.flush();
+        outputStream.close();
+    }
+}

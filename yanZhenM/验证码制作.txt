@@ -1,0 +1,31 @@
+ @Test
+    public void testCaptcha() throws Exception {
+		//制作验证码
+        ConfigurableCaptchaService cs = new ConfigurableCaptchaService();
+        cs.setColorFactory(new SingleColorFactory(new Color(67,78,170)));
+        cs.setFilterFactory(new CurvesRippleFilterFactory(cs.getColorFactory()));
+
+        RandomWordFactory factory = new RandomWordFactory();
+        factory.setMinLength(4);
+        factory.setMaxLength(4);
+        factory.setCharacters("1234567890模块花多少空间框架卡上的空间按时打卡撒娇的考虑开始");
+        cs.setWordFactory(factory);
+		
+		//给中文字体规定型号大小
+        cs.setFontFactory(new FontFactory() {
+            @Override
+            public Font getFont(int i) {
+                return new Font("微软雅黑",Font.ITALIC,24);
+            }
+        });
+
+
+		//验证码存放处
+        FileOutputStream outputStream = new FileOutputStream("D:/captcha.png");
+        //利用输出流显示在网页上
+		EncoderHelper.getChallangeAndWriteImage(cs,"png",outputStream);
+        outputStream.flush();
+        outputStream.close();
+
+    }
+}
