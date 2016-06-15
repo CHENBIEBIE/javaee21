@@ -23,7 +23,13 @@ public class ConnectionManager {
     }
 
 
-    public static boolean getDataSource() {
-        return false;
+    public static void closeConnection(Connection connection){
+
+        try {
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 }
