@@ -18,29 +18,17 @@ public class ConnectionManager {
 
     static {
 
+        dataSource.setDriverClassName(Config.get("jdbc.driver"));
+        dataSource.setUrl(Config.get("jdbc.url"));
+        dataSource.setUsername(Config.get("jdbc.username"));
+        dataSource.setPassword(Config.get("jdbc.password"));
 
-
-        Properties prop = new Properties();
-
-        try {
-            prop.load(ConnectionManager.class.getClassLoader().getResourceAsStream("config.properties"));
-        } catch (IOException e) {
-            throw new RuntimeException("读取config文件时异常",e);
-        }
-
-
-
-        dataSource.setDriverClassName(prop.getProperty("jdbc.driver"));
-        dataSource.setUrl(prop.getProperty("jdbc.url"));
-        dataSource.setUsername(prop.getProperty("jdbc.username"));
-        dataSource.setPassword(prop.getProperty("jdbc.password"));
-
-        dataSource.setInitialSize(Integer.parseInt(prop.getProperty("jdbc.initsize","5")));
-        dataSource.setMaxTotal(Integer.parseInt(prop.getProperty("jdbc.maxsize","20")));
-        dataSource.setMaxWaitMillis(Integer.parseInt(prop.getProperty("jdbc.maxwait","5000")));
+        dataSource.setInitialSize(Integer.parseInt(Config.get("jdbc.initsize","5")));
+        dataSource.setMaxTotal(Integer.parseInt(Config.get("jdbc.maxsize","20")));
+        dataSource.setMaxWaitMillis(Integer.parseInt(Config.get("jdbc.maxwait","5000")));
         //可以在池中保持空闲的最大连接数，原来的不能用
-        dataSource.setMaxIdle(Integer.parseInt(prop.getProperty("jdbc.maxdel","10")));
-        dataSource.setMinIdle(Integer.parseInt(prop.getProperty("jdbc.mindel","5")));
+        dataSource.setMaxIdle(Integer.parseInt(Config.get("jdbc.maxdel","10")));
+        dataSource.setMinIdle(Integer.parseInt(Config.get("jdbc.mindel","5")));
 
     }
 

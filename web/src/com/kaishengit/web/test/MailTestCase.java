@@ -1,5 +1,6 @@
 package com.kaishengit.web.test;
 
+import com.kaishengit.web.utli.EmailUtil;
 import org.apache.commons.mail.*;
 import org.junit.Test;
 
@@ -49,7 +50,7 @@ public class MailTestCase {
             mail.send();
         } catch (Exception e) {
 
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 
@@ -78,7 +79,14 @@ public class MailTestCase {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+           throw new RuntimeException(e);
         }
+
+
+    }
+
+    @Test
+    public void testSendHtmlMail(){
+        EmailUtil.sendHtmlMail("921212200@qq.com","今天下午来我办公室","<h3>hi >>_<<</h3>");
     }
 }
