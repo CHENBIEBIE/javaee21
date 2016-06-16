@@ -1,35 +1,50 @@
 package com.kaishengit.web.utli;
 
+import com.kaishengit.web.exception.DataAccessException;
 import org.apache.commons.dbutils.QueryRunner;
-
 import org.apache.commons.dbutils.ResultSetHandler;
-import org.omg.CORBA.Object;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.commons.dbutils.handlers.ColumnListHandler;
+import org.junit.Assert;
 
-import javax.sql.DataSource;
-
+import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * Created by Administrator on 2016/6/13.
+ * 代码繁杂制作成方法代用
  */
 public class DbHelp {
-    private static Logger logger = LoggerFactory.getLogger(DbHelp.class);
 
-    public static void update(String spl, Object... params){
-        QueryRunner queryRunner =new QueryRunner((DataSource) ConnectionManager.getConnection());
+    public static void update(String sql,Object...params){
+
+        QueryRunner queryRunner = new QueryRunner();
+
+        Connection connection=ConnectionManager.getConnection();
 
         try {
-            queryRunner.update(spl,params);
-            logger.debug("SQL: {}",spl);
+            queryRunner.update(connection,sql,params);
         } catch (SQLException e) {
-            logger.error("执行{}异常",spl);
-           e.getErrorCode();
+            throw new DataAccessException("执行:"+sql+"异常",e);
+        }finally {
+            ConnectionManager.closeConnection(connection);
         }
 
     }
+    public static <T> T query(String sql, ResultSetHandler<T> handler, Object...params){
 
+        Connection connection = ConnectionManager.getConnection();
+        QueryRunner queryrunner = new QueryRunner();
+        try {
+            return queryrunner.query(connection,sql,handler,params);
+
+        } catch (SQLException e) {
+            throw new DataAccessException("执行:"+sql+"异常",e);
+        }finally {
+            ConnectionManager.closeConnection(connection);
+        }
+
+    }
 
 
 }

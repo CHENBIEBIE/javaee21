@@ -1,25 +1,59 @@
 package com.kaishengit.web.utli;
 
+import com.kaishengit.web.exception.DataAccessException;
+import org.apache.commons.dbcp2.BasicDataSource;
+
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 /**
  * Created by Administrator on 2016/6/8.
  */
 public class ConnectionManager {
 
-    public static Connection getConnection(){
+    private static BasicDataSource dataSource= new BasicDataSource();
+
+    static {
+
+
+
+        Properties prop = new Properties();
+
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection("jdbc:mysql:///db_21","root","root");
-            return connection;
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
+            prop.load(ConnectionManager.class.getClassLoader().getResourceAsStream("config.properties"));
+        } catch (IOException e) {
+            throw new RuntimeException("读取config文件时异常",e);
         }
-        return null;
+
+
+
+        dataSource.setDriverClassName(prop.getProperty("jdbc.driver"));
+        dataSource.setUrl(prop.getProperty("jdbc.url"));
+        dataSource.setUsername(prop.getProperty("jdbc.username"));
+        dataSource.setPassword(prop.getProperty("jdbc.password"));
+
+        dataSource.setInitialSize(Integer.parseInt(prop.getProperty("jdbc.initsize","5")));
+        dataSource.setMaxTotal(Integer.parseInt(prop.getProperty("jdbc.maxsize","20")));
+        dataSource.setMaxWaitMillis(Integer.parseInt(prop.getProperty("jdbc.maxwait","5000")));
+        //可以在池中保持空闲的最大连接数，原来的不能用
+        dataSource.setMaxIdle(Integer.parseInt(prop.getProperty("jdbc.maxdel","10")));
+        dataSource.setMinIdle(Integer.parseInt(prop.getProperty("jdbc.mindel","5")));
+
+    }
+
+
+    public static Connection getConnection() throws DataAccessException{
+        try {
+
+            Connection connection =dataSource.getConnection();
+            return connection;
+        }catch (SQLException e) {
+            throw new DataAccessException("获取数据库连接异常",e);
+        }
+
     }
 
 
@@ -28,8 +62,11 @@ public class ConnectionManager {
         try {
             connection.close();
         } catch (SQLException e) {
-            e.printStackTrace();
+
+            throw new DataAccessException("数据库连接关闭异常,e");
+
         }
+
 
     }
 }

@@ -2,6 +2,7 @@ package com.kaishengit.web.test;
 
 
 import com.kaishengit.web.entity.User;
+import com.kaishengit.web.exception.DataAccessException;
 import com.kaishengit.web.utli.ConnectionManager;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.*;
@@ -16,6 +17,11 @@ import java.util.Map;
 public class DbUtilsTestCase {
 
     @Test
+    public void testConnection(){
+        ConnectionManager.getConnection();
+    }
+
+    @Test
     public void testSave(){
 
         QueryRunner queryRunner = new QueryRunner();
@@ -26,9 +32,7 @@ public class DbUtilsTestCase {
         try {
             queryRunner.update(connection,sql,"jack","123123","USA");
         } catch (SQLException e) {
-            e.printStackTrace();
-        } finally {
-            ConnectionManager.closeConnection(connection);
+            throw new DataAccessException();
         }
     }
     @Test
