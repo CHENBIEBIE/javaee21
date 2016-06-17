@@ -39,4 +39,10 @@ public class UserDao {
         return DbHelp.query(sql,new BeanListHandler<>(User.class));
     }
 
+    public User findByUserName(String username) {
+        String sql = "select * from t_user where username = ?";
+        return DbHelp.query(sql,new BeanHandler<>(User.class),username);
+
+    }
+
 }

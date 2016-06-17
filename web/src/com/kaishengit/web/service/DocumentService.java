@@ -17,13 +17,13 @@ public class DocumentService {
     private DocumentDao documentDao = new DocumentDao();
 
     public void updateFile(String fileName,Long size,InputStream inputStream) throws IOException{
+
         //为了支持inputstream的reset方法，将inputstream转换为ByteArrayInputStream
-        //解决了图片保存读取不了的问题
+        //解决图片不显示问题
         ByteArrayInputStream byteArrayInputStream =
                 new ByteArrayInputStream(IOUtils.toByteArray(inputStream));
 
-
-        String md5 = DigestUtils.md5Hex(inputStream);
+        String md5 = DigestUtils.md5Hex(byteArrayInputStream);
 
         Document document =documentDao.findByMd5(md5);
 
