@@ -45,7 +45,10 @@
 
         </div>
         <div class="panel-footer text-right">
-            <ul class="pagination" style="margin: 0px">
+
+            <ul class="pagination" id="page"></ul>
+
+            <%--<ul class="pagination" style="margin: 0px">
 
 
                 <c:choose>
@@ -71,12 +74,31 @@
                     </c:otherwise>
                 </c:choose>
 
-            </ul>
+            </ul>--%>
 
         </div>
 
     </div>
 
 </div>
+<script src="/static/js/jquery-3.0.0.min.js"></script>
+<script src="/static/js/jquery.twbsPagination.min.js"></script>
+<script>
+
+    $(function(){
+
+        $("#page").twbsPagination({
+           totalPages:${page.totalPages},
+            visiblePages:10,
+            first:'首页',
+            prev:'下一页',
+            next:'上一页',
+            last:'末页',
+            herf:'?p={{number}}'
+        });
+
+    });
+
+</script>
 </body>
 </html>

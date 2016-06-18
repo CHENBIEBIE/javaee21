@@ -1,6 +1,7 @@
 package com.kaishengit.service;
 
 import com.kaishengit.entity.Movie;
+import com.kaishengit.util.Page;
 import org.junit.Assert;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -30,13 +31,13 @@ public class MovieServiceTestCase {
 
     @Test
     public void testFindByPage(){
-        List<Movie> movieList = movieService.findMovieByPageNo(1);
-        for (Movie movie :movieList){
+        Page<Movie> page = movieService.findMovieByPageNo(1);
+        for (Movie movie :page.getItems()){
             logger.debug("{} ",movie);
 
         }
 
-        assertEquals(10,movieList.size());
+        assertEquals(10,page.getItems().size());
 
     }
 
