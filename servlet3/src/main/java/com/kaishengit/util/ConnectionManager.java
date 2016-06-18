@@ -3,11 +3,11 @@ package com.kaishengit.util;
 import com.kaishengit.exception.DataAccessException;
 import org.apache.commons.dbcp2.BasicDataSource;
 
-import java.io.IOException;
+
 import java.sql.Connection;
-import java.sql.DriverManager;
+
 import java.sql.SQLException;
-import java.util.Properties;
+
 
 /**
  * Created by Administrator on 2016/6/8.

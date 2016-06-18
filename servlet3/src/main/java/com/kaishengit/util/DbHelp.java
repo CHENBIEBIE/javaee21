@@ -1,6 +1,6 @@
 package com.kaishengit.util;
 
-import com.kaishengit.web.exception.DataAccessException;
+import com.kaishengit.exception.DataAccessException;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.ResultSetHandler;
 import org.apache.commons.dbutils.handlers.ColumnListHandler;
