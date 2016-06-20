@@ -21,13 +21,14 @@
         }
         return xmlHttp;
     }
-    document.querySelector("#username").onchange = function(){
+    document.querySelector("#username").onblur = function(){
         var username = this.value;
 
         var xmlHttp = createXmlHttp();
 
-        xmlHttp.open("get","/checkusername?username="+username);
+        //xmlHttp.open("get","/checkusername?username="+encodeURIComponent(username)+"&_="+new Date().getDate());
 
+        xmlHttp.open("get","/checkusername?username="+encodeURIComponent(username));
         xmlHttp.onreadystatechange = function(){
 
             var readyState = xmlHttp.readyState;
@@ -38,7 +39,7 @@
 
                     var result = xmlHttp.responseText;
                     if(result == "yes") {
-                        document.querySelector("#help_text").innerText = "创建账号成功";
+                        document.querySelector("#help_text").innerText = "√";
                     } else {
                         document.querySelector("#help_text").innerText = "账号已被占用";
                     }

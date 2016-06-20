@@ -1,4 +1,0 @@
-0:0:0:0:0:0:0:1 - - [20/Jun/2016:16:06:15 +0800] "GET /checkusername.jsp HTTP/1.1" 200 1460 http-bio-80-exec-1 1141
-0:0:0:0:0:0:0:1 - - [20/Jun/2016:16:06:21 +0800] "GET /checkusername?username=tom HTTP/1.1" 200 12 http-bio-80-exec-5 87
-0:0:0:0:0:0:0:1 - - [20/Jun/2016:16:06:27 +0800] "GET /checkusername?username=tome HTTP/1.1" 200 13 http-bio-80-exec-6 2
-0:0:0:0:0:0:0:1 - - [20/Jun/2016:16:06:33 +0800] "GET /checkusername?username=tom HTTP/1.1" 200 12 http-bio-80-exec-7 3

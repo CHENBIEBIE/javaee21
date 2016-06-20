@@ -1,15 +1,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Ajax</title>
-
+    <title>Title</title>
 </head>
 <body>
-<button id="btn">发出ajax</button>
+
+<button id="btn">发出post请求</button>
 
 <script>
     (function(){
+
         function creatXmlHttp() {
 
             var xmlhttp = null;
@@ -21,11 +21,16 @@
             }
             return xmlhttp;
         }
+
         document.querySelector("#btn").onclick=function(){
             var xmlHttp = creatXmlHttp();
-            xmlHttp.open("get","ajax");
-            xmlHttp.send();
+            xmlHttp.open("post","ajax",true);
+
+            xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            xmlHttp.send("name=张三");
         };
+
+
 
     })();
 </script>

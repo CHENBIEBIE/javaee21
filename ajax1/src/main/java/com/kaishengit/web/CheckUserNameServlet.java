@@ -1,3 +1,4 @@
+
 package com.kaishengit.web;
 
 import org.slf4j.Logger;
@@ -11,12 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+@WebServlet("/checkUserNameServlet")
+public class CheckUserNameServlet extends HttpServlet{
 
-/**
- * Created by Administrator on 2016/6/20.
- */
-@WebServlet("ajax")
-public class CheckUserNameServlet extends HttpServlet {
 
     Logger logger = LoggerFactory.getLogger(CheckUserNameServlet.class);
 
@@ -42,8 +40,6 @@ public class CheckUserNameServlet extends HttpServlet {
         out.close();
     }
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        logger.debug("一二三四一二三四");
-    }
+
+
 }
