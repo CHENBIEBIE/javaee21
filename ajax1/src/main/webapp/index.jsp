@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Ajax</title>
 
+
 </head>
 <body>
 <button id="btn">发出ajax</button>
