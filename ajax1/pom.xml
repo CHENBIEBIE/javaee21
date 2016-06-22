@@ -18,6 +18,22 @@
 
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.2</version>
+    </dependency>
+
+
+
+
     <!--javax.servlet-api -->
     <dependency>
       <groupId>javax.servlet</groupId>

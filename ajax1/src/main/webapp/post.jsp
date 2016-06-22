@@ -27,7 +27,7 @@
             xmlHttp.open("post","ajax",true);
 
             xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
-            xmlHttp.send("name=张三");
+            xmlHttp.send("name=张三&address=李四");
         };
 
 

@@ -27,6 +27,7 @@ public class CheckUserNameServlet extends HttpServlet{
         resp.addHeader("expires","0");
 
         String username = req.getParameter("username");
+
         username = new String(username.getBytes("ISO8859-1"),"UTF-8");
         logger.debug("username:{}"+username);
 
@@ -39,6 +40,8 @@ public class CheckUserNameServlet extends HttpServlet{
         out.flush();
         out.close();
     }
+
+
 
 
 

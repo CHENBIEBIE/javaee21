@@ -29,9 +29,9 @@ public class AjaxServlet extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
 
         String name = req.getParameter("name");
+        String address=req.getParameter("address");
 
-
-        logger.debug("ajax doPost request ....{}",name);
+        logger.debug("ajax doPost request ....{}-{}",name,address);
 
 
     }
