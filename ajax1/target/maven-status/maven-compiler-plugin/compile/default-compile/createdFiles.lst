@@ -1,3 +1,6 @@
-com\kaishengit\web\CheckUserNameServlet.class
 com\kaishengit\web\UserXmlServlet.class
+com\kaishengit\entity\User.class
+com\kaishengit\uitl\HttpUitl.class
+com\kaishengit\web\UserJsonServlet.class
+com\kaishengit\web\CheckUserNameServlet.class
 com\kaishengit\web\AjaxServlet.class
