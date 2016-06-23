@@ -33,6 +33,11 @@ public class AjaxServlet extends HttpServlet {
 
         logger.debug("ajax doPost request ....{}-{}",name,address);
 
+        PrintWriter out = resp.getWriter();
+        out.print("PHP");
+        out.flush();
+        out.close();
+
 
     }
 }
