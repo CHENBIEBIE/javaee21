@@ -1,6 +1,15 @@
+com\kaishengit\uitl\Page.class
+com\kaishengit\uitl\DbHelp.class
 com\kaishengit\web\UserXmlServlet.class
-com\kaishengit\entity\User.class
+com\kaishengit\uitl\ConnectionManager.class
+com\kaishengit\web\MessageServlet.class
 com\kaishengit\uitl\HttpUitl.class
-com\kaishengit\web\UserJsonServlet.class
 com\kaishengit\web\CheckUserNameServlet.class
+com\kaishengit\exception\DataAccessException.class
+com\kaishengit\uitl\Config.class
+com\kaishengit\entity\User.class
+com\kaishengit\web\UserJsonServlet.class
+com\kaishengit\service\MessageService.class
+com\kaishengit\entity\Message.class
+com\kaishengit\dao\MessageDao.class
 com\kaishengit\web\AjaxServlet.class

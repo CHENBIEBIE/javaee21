@@ -1,6 +1,15 @@
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\exception\DataAccessException.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\service\MessageService.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\uitl\DbHelp.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\web\MessageServlet.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\entity\Message.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\uitl\Config.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\entity\User.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\uitl\Page.java
 D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\web\UserJsonServlet.java
 D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\web\AjaxServlet.java
-D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\uitl\HttpUitl.java
 D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\web\UserXmlServlet.java
-D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\entity\User.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\uitl\HttpUitl.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\uitl\ConnectionManager.java
 D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\web\CheckUserNameServlet.java
+D:\userspace\idea\project21\ajax1\src\main\java\com\kaishengit\dao\MessageDao.java

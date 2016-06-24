@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:33:19 +0800] "GET /WEB-INF/views/message.jsp HTTP/1.1" 404 949 http-bio-80-exec-1 60
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:33:29 +0800] "GET /message HTTP/1.1" 200 743 http-bio-80-exec-2 1873
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:37:55 +0800] "GET /message HTTP/1.1" 200 1013 http-bio-80-exec-4 5
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:37:55 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-5 7
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:38:42 +0800] "GET /message HTTP/1.1" 200 1013 http-bio-80-exec-6 8
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:38:42 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-7 2
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:38:43 +0800] "GET /message HTTP/1.1" 200 1013 http-bio-80-exec-8 7
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:11:38:43 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-9 1
