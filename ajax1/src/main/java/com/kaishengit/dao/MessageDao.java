@@ -18,4 +18,11 @@ public class MessageDao {
         return DbHelp.query(sql,new BeanListHandler<Message>(Message.class));
     }
 
+    public List<Message> findGtMaxId(String maxId) {
+
+        String sql = "select * from t_message where id > ? order by id desc";
+        return DbHelp.query(sql,new BeanListHandler<Message>(Message.class),maxId);
+
+
+    }
 }

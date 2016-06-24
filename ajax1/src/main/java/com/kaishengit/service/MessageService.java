@@ -16,4 +16,9 @@ public class MessageService {
 
         return messageDao.findAll();
     }
+
+    public List<Message> findMessageById(String maxId) {
+
+        return messageDao.findGtMaxId(maxId);
+    }
 }
