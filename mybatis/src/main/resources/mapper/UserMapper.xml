@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kaishengit.mapper.UserMapper">
+
+
+    <select id="findById" parameterType="int" resultType="com.kaishengit.pojo.User">
+        SELECT id, username, password, email, avatar, createtime, loginip, logintime, state
+        FROM t_user WHERE id = #{id}
+    </select>
+
+
+    <insert id="save" parameterType="com.kaishengit.pojo.User">
+        INSERT INTO t_user(username, password, email, avatar, createtime, loginip, logintime, state)
+        VALUES (#{username},#{password},#{email},#{avatar},#{createtime},#{loginip},#{logintime},#{state})
+    </insert>
+
+    <update id="update" parameterType="User">
+        UPDATE t_user SET password = #{password},email = #{email},avatar=#{avatar},
+        loginip=#{loginip},logintime=#{logintime},state=#{state}
+        where id = #{id}
+    </update>
+
+    <delete id="del" parameterType="int">
+        DELETE FROM t_user WHERE id = #{id}
+    </delete>
+
+    <select id="findAll" resultType="User">
+        SELECT * FROM t_user
+    </select>
+
+
+</mapper>

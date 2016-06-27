@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - fornm@localhost" uuid="2b1f55d3-34c5-4d59-be19-a10d55e4f184">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>fornm.*</schema-pattern>
+      <default-schemas>fornm.*</default-schemas>
+    </data-source>
+    <data-source name="MySQL - db_21@localhost" uuid="af5f1510-0916-4d5c-98a2-872fc77a039f">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+    </data-source>
+  </component>
+</project>
