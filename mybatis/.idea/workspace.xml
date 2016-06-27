@@ -51,26 +51,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyBatisTestCase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyBatisTestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.11149228">
-              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#testLoadXml#0;class#MyBatisTestCase#0" expanded="false" />
+                <element signature="method#testSave#0;class#MyBatisTestCase#0" expanded="false" />
+                <element signature="method#testUpdate#0;class#MyBatisTestCase#0" expanded="false" />
+                <element signature="method#testDel#0;class#MyBatisTestCase#0" expanded="false" />
+                <element signature="method#testFindAll#0;class#MyBatisTestCase#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="1.6672385">
               <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="e#1331#1332#0" expanded="true" />
                 <element signature="e#1369#1370#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1561#1562#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+                <element signature="method#toString#0;class#User#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -973,7 +986,7 @@
       <updated>1467013906060</updated>
       <workItem from="1467013909475" duration="10252000" />
       <workItem from="1467025552418" duration="889000" />
-      <workItem from="1467030657465" duration="3069000" />
+      <workItem from="1467030657465" duration="3327000" />
     </task>
     <servers />
   </component>
@@ -1010,7 +1023,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14210000" />
+    <option name="totallyTimeSpent" value="14468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
@@ -1061,7 +1074,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1075,7 +1088,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#testLoadXml#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testSave#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testUpdate#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testDel#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testFindAll#0;class#MyBatisTestCase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1087,6 +1104,15 @@
           <folding>
             <element signature="e#1331#1332#0" expanded="true" />
             <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="method#toString#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1140,7 +1166,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#testLoadXml#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testSave#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testUpdate#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testDel#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testFindAll#0;class#MyBatisTestCase#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1152,6 +1182,15 @@
           <folding>
             <element signature="e#1331#1332#0" expanded="true" />
             <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="method#toString#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1237,17 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/729926f1/2b1f55d3-34c5-4d59-be19-a10d55e4f184/fornm.t_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1278,10 +1306,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.11149228">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#testLoadXml#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testSave#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testUpdate#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testDel#0;class#MyBatisTestCase#0" expanded="false" />
+            <element signature="method#testFindAll#0;class#MyBatisTestCase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6672385">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="method#toString#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
