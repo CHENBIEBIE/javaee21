@@ -39,6 +39,7 @@
     <!--加载mapper文件-->
     <mappers>
         <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="mapper/NodeMapper.xml"/>
     </mappers>
 
 </configuration>

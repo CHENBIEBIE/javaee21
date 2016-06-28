@@ -9,35 +9,47 @@
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
       <schema id="1" name="fornm"/>
       <table id="2" parent="1" name="t_user"/>
-      <column id="3" parent="2" name="id">
+      <table id="3" parent="1" name="t_node"/>
+      <column id="4" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="4" parent="2" name="username">
+      <column id="5" parent="2" name="username">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="5" parent="2" name="password">
+      <column id="6" parent="2" name="password">
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="6" parent="2" name="email">
+      <column id="7" parent="2" name="email">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="7" parent="2" name="avatar">
+      <column id="8" parent="2" name="avatar">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="8" parent="2" name="createtime">
+      <column id="9" parent="2" name="createtime">
         <data-type>varchar(45)</data-type>
       </column>
-      <column id="9" parent="2" name="loginip">
+      <column id="10" parent="2" name="loginip">
         <data-type>varchar(45)</data-type>
       </column>
-      <column id="10" parent="2" name="logintime">
+      <column id="11" parent="2" name="logintime">
         <data-type>varchar(45)</data-type>
       </column>
-      <column id="11" parent="2" name="state">
+      <column id="12" parent="2" name="state">
         <data-type>varchar(45)</data-type>
       </column>
-      <key id="12" parent="2" name="PRIMARY">
+      <key id="13" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="14" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="15" parent="3" name="nodename">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <key id="16" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
