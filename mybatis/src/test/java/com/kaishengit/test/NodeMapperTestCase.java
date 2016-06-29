@@ -19,6 +19,27 @@ public class NodeMapperTestCase {
     Logger logger = LoggerFactory.getLogger(NodeMapperTestCase.class);
 
     @Test
+    public void testFindById(){
+        SqlSession sqlSession = MyBatisUtil.getSqlSession();
+
+        NodeMapper nodeMapper = sqlSession.getMapper(NodeMapper.class);
+
+        Node node = nodeMapper.findById(1);
+
+        logger.debug("{}",node);
+        sqlSession.close();
+
+
+        SqlSession sqlSession2 = MyBatisUtil.getSqlSession();
+
+        NodeMapper nodeMapper2 = sqlSession2.getMapper(NodeMapper.class);
+
+        Node node2 = nodeMapper2.findById(1);
+
+        logger.debug("{}",node);
+        sqlSession2.close();
+    }
+    @Test
     public void testBatchSave(){
 
         SqlSession sqlSession = MyBatisUtil.getSqlSession();

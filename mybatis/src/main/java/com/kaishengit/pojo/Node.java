@@ -1,10 +1,10 @@
 package com.kaishengit.pojo;
 
-/**
- * Created by Administrator on 2016/6/28.
- */
-public class Node {
+import java.io.Serializable;
 
+public class Node implements Serializable {
+
+    private static final long serialVersionUID = -7559050945596290365L;
     private Integer id;
 
     private String nodename;
