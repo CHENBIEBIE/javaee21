@@ -83,6 +83,7 @@
         where id = #{id}
     </update>
 
+
     <delete id="del" parameterType="int">
         DELETE FROM t_user WHERE id = #{id}
     </delete>

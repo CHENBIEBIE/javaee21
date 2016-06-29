@@ -8,9 +8,7 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * Created by Administrator on 2016/6/29.
- */
+
 public class TopicMapperTestCase {
 
     private Logger logger = LoggerFactory.getLogger(TopicMapperTestCase.class);

@@ -92,7 +92,7 @@ public class MyBatisInterFaceTestCase {
 
         UserMapper userMapper =sqlSession.getMapper(UserMapper.class);
 
-        User user = userMapper.findById(10);
+        User user = userMapper.findById(13);
 
         logger.debug("{}",user);
 
@@ -114,7 +114,7 @@ public class MyBatisInterFaceTestCase {
         UserMapper userMapper =sqlSession.getMapper(UserMapper.class);
 
         User user = new User();
-        user.setUsername("小hu");
+        user.setUsername("小mimi");
         user.setPassword("123123");
         user.setState("正常");
 
@@ -133,7 +133,7 @@ public class MyBatisInterFaceTestCase {
 
         UserMapper userMapper =sqlSession.getMapper(UserMapper.class);
 
-        User user = userMapper.findById(4);
+        User user = userMapper.findById(10);
 
         user.setEmail("com.kishengit.020.com");
 
@@ -149,7 +149,7 @@ public class MyBatisInterFaceTestCase {
 
         UserMapper userMapper =sqlSession.getMapper(UserMapper.class);
 
-        userMapper.del(8);
+        userMapper.del(18);
         sqlSession.commit();
         sqlSession.close();
     }

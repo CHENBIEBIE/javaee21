@@ -43,7 +43,10 @@
         <mapper resource="mapper/TopicMapper.xml"/>
     </mappers>-->
     <mappers>
-        <mapper class="com.kaishengit.mapper"/>
+        <mapper class="com.kaishengit.mapper.UserMapper"/>
+        <mapper class="com.kaishengit.mapper.TagMapper"/>
+        <mapper class="com.kaishengit.mapper.TopicMapper"/>
+        <mapper class="com.kaishengit.mapper.NodeMapper"/>
     </mappers>
 
 </configuration>

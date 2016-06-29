@@ -1,11 +1,12 @@
 package com.kaishengit.pojo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by Administrator on 2016/6/27.
  */
-public class User {
+public class User implements Serializable{
 
     private Integer id;
     private String username;
@@ -114,7 +115,7 @@ public class User {
                 ", logintime='" + logintime + '\'' +
                 ", state='" + state + '\'' +
                 ", tagList=" + tagList +
-                '}';
+                 '}';
     }
 
 }
