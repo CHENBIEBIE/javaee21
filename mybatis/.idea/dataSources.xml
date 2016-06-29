@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="637397349">
-    <data-source source="LOCAL" name="MySQL - fornm@localhost" uuid="2b1f55d3-34c5-4d59-be19-a10d55e4f184">
+  <component name="DataSourceManagerImpl" format="xml" hash="2903136726">
+    <data-source source="LOCAL" name="MySQL - forum@localhost" uuid="ed70d6c5-4be7-4528-a0f2-fc1a58ba1f2e">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/fornm</jdbc-url>
-      <driver-properties>
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="MySQL - db_21@localhost" uuid="af5f1510-0916-4d5c-98a2-872fc77a039f">
-      <driver-ref>mysql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/db_21</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/forum</jdbc-url>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />

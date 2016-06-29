@@ -1,5 +1,7 @@
 package com.kaishengit.pojo;
 
+import java.util.List;
+
 /**
  * Created by Administrator on 2016/6/27.
  */
@@ -14,6 +16,10 @@ public class User {
     private String loginip;
     private String logintime;
     private String state;
+
+    private List<Tag> tagList;
+
+
 
     public Integer getId() {
         return id;
@@ -87,6 +93,14 @@ public class User {
         this.state = state;
     }
 
+    public List<Tag> getTagList() {
+        return tagList;
+    }
+
+    public void setTagList(List<Tag> tagList) {
+        this.tagList = tagList;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -99,6 +113,8 @@ public class User {
                 ", loginip='" + loginip + '\'' +
                 ", logintime='" + logintime + '\'' +
                 ", state='" + state + '\'' +
+                ", tagList=" + tagList +
                 '}';
     }
+
 }

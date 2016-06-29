@@ -2,6 +2,7 @@ package com.kaishengit.test;
 
 import com.google.common.collect.Maps;
 import com.kaishengit.mapper.UserMapper;
+import com.kaishengit.pojo.Tag;
 import com.kaishengit.pojo.User;
 import com.kaishengit.utli.MyBatisUtil;
 import org.apache.ibatis.session.SqlSession;
@@ -19,6 +20,23 @@ public class MyBatisInterFaceTestCase {
     private Logger logger = LoggerFactory.getLogger(MyBatisInterFaceTestCase.class);
 
     @Test
+    public void testFindByPage(){
+
+
+        SqlSession sqlSession = MyBatisUtil.getSqlSession();
+
+        UserMapper userMapper =sqlSession.getMapper(UserMapper.class);
+
+        List<User> userList = userMapper.findByPage(0,2);
+
+        for (User user:userList){
+            logger.debug("{}",user);
+        }
+
+        sqlSession.close();
+
+    }
+    @Test
     public void testFindByQueryParam(){
 
         SqlSession sqlSession = MyBatisUtil.getSqlSession();
@@ -30,6 +48,8 @@ public class MyBatisInterFaceTestCase {
         //queryParam.put("username","jack");
         //queryParam.put("password","12323");
         //queryParam.put("email","jack@qq.com");
+
+        //三个条件不存在时运行异常是写方法时User对象没放在List集合中
 
         userMapper.findByQueryParam(queryParam);
 
@@ -44,7 +64,7 @@ public class MyBatisInterFaceTestCase {
 
         UserMapper userMapper =sqlSession.getMapper(UserMapper.class);
 
-        User user = userMapper.findByParams("zz","444");
+        User user = userMapper.findByParams("Rose","123123");
 
         logger.debug("{}",user);
         Assert.assertNotNull(user);
@@ -72,9 +92,14 @@ public class MyBatisInterFaceTestCase {
 
         UserMapper userMapper =sqlSession.getMapper(UserMapper.class);
 
-        User user = userMapper.findById(2);
+        User user = userMapper.findById(10);
 
         logger.debug("{}",user);
+
+        List<Tag> tagList = user.getTagList();
+        for (Tag tag : tagList){
+            logger.debug("{}",tag);
+        }
 
         sqlSession.close();
 
