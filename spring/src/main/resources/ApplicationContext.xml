@@ -1,16 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="myAdvice" class="com.kaishengit.aop.MyAdvice"/>
+    <aop:config>
+        <aop:aspect ref="myAdvice">
+            <aop:pointcut id="myPointcut" expression="execution(* com.kaishengit.dao..*.*(..))"/>
+            <!--<aop:before method="beforeAdvice" pointcut-ref="myPointcut"/>
+            <aop:after-returning method="thenAdvice" pointcut-ref="myPointcut" returning="result"/>
+            <aop:after-throwing method="exceptionAdvice" pointcut-ref="myPointcut" throwing="e"/>
+            <aop:after method="finnalAdvice" pointcut-ref="myPointcut"/>-->
+            <aop:around method="aroundAdvice" pointcut-ref="myPointcut"/>
+        </aop:aspect>
+    </aop:config>
+
     <!--<bean name="userDao" class="com.kaishengit.dao.UserDao" init-method="init" destroy-method="destory"/>
     <alias name="userDao" alias="myDao"/>-->
     <bean id="userDao" class="com.kaishengit.dao.UserDaoImpl" />
-    <bean id="userDao2" class="com.kaishengit.dao.UserDaoImpl2"/>
-    <bean name="userSerivice" class="com.kaishengit.service.UserService">
+
+    <!--<bean id="userDao2" class="com.kaishengit.dao.UserDaoImpl2"/>-->
+
+    <!--自动注入-->
+
+    <bean name="userService" class="com.kaishengit.service.UserService" autowire="constructor"/>
+
+   <!-- <bean name="userService" class="com.kaishengit.service.UserService" autowire="byName"/>-->
+
+
+
+    <!--构造方法注入-->
+
+    <!--很具构造方法的名字，索引，类型-->
+
+   <!-- <bean name="userService" class="com.kaishengit.service.UserService">
+        <constructor-arg type="com.kaishengit.dao.UserDao" ref="userDao2"/>
+    </bean>-->
+
+    <!--<bean name="userService" class="com.kaishengit.service.UserService">
+        <constructor-arg index="0" ref="userDao2"/>
+    </bean>-->
+
+    <!--<bean name="userService" class="com.kaishengit.service.UserService">
+        <constructor-arg name="userDao" ref="userDao2"/>
+    </bean>-->
+
+
+
+    <!--set注入-->
+    <!--<bean name="userService" class="com.kaishengit.service.UserService" p:userDao-ref="userDao2"/>-->
+
+
+
+    <!--<bean name="userService" class="com.kaishengit.service.UserService">
+        <property name="userDao">-->
+            <!--这个类的对象只能在userService中注入使用了
+            在上个类中不能注入这个类的对象了-->
+    <!--        <bean class="com.kaishengit.dao.UserDaoImpl2"/>
+        </property>
+
+    </bean>-->
+
+
+
+
+    <!-- <bean name="userSerivice" class="com.kaishengit.service.UserService">
+        <property name="userDao">
+            <ref bean="userDao"/>
+        </property>
+
+    </bean>-->
+
+
+    <!--<bean name="userSerivice" class="com.kaishengit.service.UserService">
         <property name="userDao" ref="userDao2"/>
-       <!-- name中的userDao是set后面UserDao的小写第一个字母
-        ref是把谁的对象注入进来就选谁的id-->
+       &lt;!&ndash; name中的userDao是set后面UserDao的小写第一个字母
+        ref是把谁的对象注入进来就选谁的id&ndash;&gt;
+    </bean>-->
+    <bean id="bookService" class="com.kaishengit.service.BookService" p:bookName="head .." p:num="1000">
+
+        <property name="lists">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+                <value>list3</value>
+            </list>
+        </property>
+        <property name="sets">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+                <value>set3</value>
+            </set>
+        </property>
+        <property name="maps">
+            <map>
+               <entry key="k1" value="v1"/>
+                <entry key="k2" value="v2"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="k1">k1</prop>
+                <prop key="k2">k2</prop>
+            </props>
+        </property>
     </bean>
 
 

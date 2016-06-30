@@ -1,4 +1,5 @@
 import com.kaishengit.dao.UserDao;
+import com.kaishengit.service.BookService;
 import com.kaishengit.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -15,7 +16,10 @@ public class SpringDemoTestCase {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
 
-        UserService userService = (UserService) applicationContext.getBean("userSerivice");//传入的bean中被调用的id
+       /* BookService bookService = (BookService) applicationContext.getBean("bookService");
+        bookService.showBook();*/
+
+        UserService userService = (UserService) applicationContext.getBean("userService");//传入的bean中被调用的id
 
         userService.sayHi();
 
