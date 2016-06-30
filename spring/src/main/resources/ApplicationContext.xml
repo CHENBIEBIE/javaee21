@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--<bean name="userDao" class="com.kaishengit.dao.UserDao" init-method="init" destroy-method="destory"/>
+    <alias name="userDao" alias="myDao"/>-->
+    <bean id="userDao" class="com.kaishengit.dao.UserDaoImpl" />
+    <bean id="userDao2" class="com.kaishengit.dao.UserDaoImpl2"/>
+    <bean name="userSerivice" class="com.kaishengit.service.UserService">
+        <property name="userDao" ref="userDao2"/>
+       <!-- name中的userDao是set后面UserDao的小写第一个字母
+        ref是把谁的对象注入进来就选谁的id-->
+    </bean>
+
+
+</beans>
