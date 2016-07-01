@@ -1,15 +1,18 @@
 package com.kaishengit.service;
 
 import com.kaishengit.dao.UserDao;
+import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * Created by Administrator on 2016/6/30.
- */
+import javax.inject.Named;
+
+@Named
 public class UserService {
 
+    @Autowired
     private UserDao userDao;
 
-    /*public void setUserDao(UserDao userDao) {
+   /* @Autowired
+    public void setUserDao(UserDao userDao) {
         this.userDao = userDao;
     }*/
 
@@ -21,11 +24,11 @@ public class UserService {
     * 如果不给userDao传值UserService就不能使用
     * 少用
     * */
-    public UserService (UserDao userDao){
+    /*public UserService (UserDao userDao){
 
         this.userDao = userDao;
 
-    }
+    }*/
 
     public void sayHi(){
 

@@ -1,10 +1,9 @@
 package com.kaishengit.dao;
 
+import javax.inject.Named;
 import java.io.Serializable;
 
-/**
- * Created by Administrator on 2016/6/30.
- */
+@Named
 public class UserDaoImpl implements UserDao{
 
 
