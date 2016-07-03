@@ -2,9 +2,6 @@ package com.kaishengit.pojo;
 
 import java.io.Serializable;
 
-/**
- * Created by Administrator on 2016/7/1.
- */
 public class User implements Serializable {
 
     private Integer id;

@@ -13,60 +13,80 @@
         <comment>消息表</comment>
       </table>
       <table id="4" parent="1" name="t_user"/>
-      <column id="5" parent="2" name="id">
+      <table id="5" parent="1" name="t_login_log"/>
+      <column id="6" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="6" parent="2" name="filename">
+      <column id="7" parent="2" name="filename">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="7" parent="2" name="savename">
+      <column id="8" parent="2" name="savename">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="8" parent="2" name="md5">
+      <column id="9" parent="2" name="md5">
         <data-type>varchar(32)</data-type>
       </column>
-      <column id="9" parent="2" name="extname">
+      <column id="10" parent="2" name="extname">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="10" parent="2" name="size">
+      <column id="11" parent="2" name="size">
         <data-type>bigint(20)</data-type>
       </column>
-      <column id="11" parent="2" name="displaysize">
+      <column id="12" parent="2" name="displaysize">
         <data-type>varchar(30)</data-type>
       </column>
-      <key id="12" parent="2" name="PRIMARY">
+      <key id="13" parent="2" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="13" parent="3" name="id">
+      <column id="14" parent="3" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="14" parent="3" name="message">
+      <column id="15" parent="3" name="message">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="15" parent="3" name="author">
+      <column id="16" parent="3" name="author">
         <data-type>varchar(20)</data-type>
       </column>
-      <key id="16" parent="3" name="PRIMARY">
+      <key id="17" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="17" parent="4" name="id">
+      <column id="18" parent="4" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="18" parent="4" name="username">
+      <column id="19" parent="4" name="username">
         <data-type>varchar(20)</data-type>
       </column>
-      <column id="19" parent="4" name="address">
+      <column id="20" parent="4" name="address">
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="20" parent="4" name="password">
+      <column id="21" parent="4" name="password">
         <data-type>varchar(20)</data-type>
       </column>
-      <key id="21" parent="4" name="PRIMARY">
+      <key id="22" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="23" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="24" parent="5" name="creattime">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <column id="25" parent="5" name="ip">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="26" parent="5" name="userid">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="27" parent="5" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
