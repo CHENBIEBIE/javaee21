@@ -33,13 +33,15 @@
     <!--配置MyBatis的SqlSessionFactoryBean-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <!--将pojo包中的所有类声明别名为类的名字-->
+
+        <!--将pojo包中的所有类的别名为类名-->
         <property name="typeAliasesPackage" value="com.kaishengit.pojo"/>
-        <!--自动加载classpath 中的mapper文件夹中的所有xml-->
+
+        <!--自动加载classpath中的mapper文件中的xml-->
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
     </bean>
 
-    <!--自动扫描Mapper 1.告诉MyBatis Mapper接口的位置 2.将所有Mapper放入Spring容器-->
+    <!--自动扫描Mapper-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.kaishengit.mapper"/>
     </bean>
@@ -62,6 +64,7 @@
             <tx:method name="*"/>
         </tx:attributes>
     </tx:advice>
+
     <aop:config>
         <aop:pointcut expression="execution(* com.kaishengit.service..*.*(..))"  id="myPointcut"/>
         <aop:advisor advice-ref="txAdvice"/>

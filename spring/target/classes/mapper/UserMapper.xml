@@ -7,7 +7,7 @@
     <cache/>
 
     <insert id="save" parameterType="User">
-        INSERT INTO t_user(username,password,address) VALUES (#{username},#{password},#{address})
+      INSERT INTO t_user(username,password,address) VALUES (#{username},#{password},#{address})
     </insert>
 
     <select id="findById" resultType="User" parameterType="int">
