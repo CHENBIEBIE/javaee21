@@ -1,3 +1,10 @@
-0:0:0:0:0:0:0:1 - - [04/Jul/2016:16:24:13 +0800] "GET /users/456/photo/catalog/123 HTTP/1.1" 404 1011 http-bio-80-exec-1 168
-0:0:0:0:0:0:0:1 - - [04/Jul/2016:16:24:24 +0800] "GET /users/456 HTTP/1.1" 200 104 http-bio-80-exec-3 1095
-0:0:0:0:0:0:0:1 - - [04/Jul/2016:16:24:52 +0800] "GET /users/456/photo/catalog/123 HTTP/1.1" 200 106 http-bio-80-exec-4 97
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:40:24 +0800] "GET /home HTTP/1.1" 200 214 http-bio-80-exec-1 1421
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:40:24 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 124702 http-bio-80-exec-5 53
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:40:24 +0800] "GET /static/img/1.jpg HTTP/1.1" 200 415359 http-bio-80-exec-2 61
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:41:31 +0800] "GET /home HTTP/1.1" 200 214 http-bio-80-exec-8 14
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:41:32 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-10 68
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:41:32 +0800] "GET /static/img/1.jpg HTTP/1.1" 304 - http-bio-80-exec-9 74
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:41:48 +0800] "GET /home HTTP/1.1" 200 214 http-bio-80-exec-9 10
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:42:13 +0800] "GET /home HTTP/1.1" 200 214 http-bio-80-exec-9 6
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:42:13 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-9 9
+0:0:0:0:0:0:0:1 - - [04/Jul/2016:20:42:13 +0800] "GET /static/img/1.jpg HTTP/1.1" 304 - http-bio-80-exec-9 6
