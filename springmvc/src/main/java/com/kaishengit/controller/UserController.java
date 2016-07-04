@@ -23,7 +23,7 @@ public class UserController {
     public String showUser(@PathVariable Integer id){
 
         logger.debug("Id:{}",id);
-        return "users/photo";
+        return "users/show";
 
     }
 
@@ -33,6 +33,6 @@ public class UserController {
     public String showUserPhoto(@PathVariable Integer userId,@PathVariable Integer catalogId){
 
         logger.debug("userId : {} catalogId :{}",userId,catalogId);
-        return "users/photo";
+        return "users/photos";
     }
 }
