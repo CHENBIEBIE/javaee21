@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kaishengit.mapper.BookMapper">
+    <cache/>
+
+    <insert id="save" parameterType="Book">
+        INSERT INTO t_book(bookname, bookprice, bookauthor, booknum, typeid, pubid, bookpic)
+        VALUES (#{bookname},#{bookprice},#{bookauthor},#{booknum},#{typeid},#{pubid},'')
+    </insert>
+
+    
+
+    <delete id="del" parameterType="int">
+        DELETE FROM t_book WHERE id = #{id}
+    </delete>
+
+    <update id="update" parameterType="Book">
+        UPDATE t_book SEt bookname = #{bookname},bookauthor=#{bookauthor},booknum=#{booknum},
+        typeid=#{typeid},pubid=#{pubid},bookprice=#{bookprice}
+        where id = #{id}
+    </update>
+    
+    <select id="findById" resultType="book">
+        SELECT * FROM t_user WHERE id=#{id}
+    </select>
+    
+    <select id="findAll" resultType="Book">
+        SELECT * FROM t_book ORDER BY t_book.id DESC
+    </select>
+</mapper>

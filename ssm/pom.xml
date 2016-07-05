@@ -135,6 +135,7 @@
       <version>1.7.21</version>
     </dependency>
 
+    <!--使用@Named时需添加-->
     <dependency>
       <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
