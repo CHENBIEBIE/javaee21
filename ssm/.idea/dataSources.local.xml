@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - bookstore@localhost" uuid="747d1f01-c42e-452a-bebd-b391ca4ea6f7">
+    <data-source name="MySQL - bookstore@localhost" uuid="65f1a06f-253d-4464-9acd-0ae8fe17d97c">
       <secret-storage>memory</secret-storage>
       <user-name>root</user-name>
       <schema-pattern>bookstore.*</schema-pattern>
