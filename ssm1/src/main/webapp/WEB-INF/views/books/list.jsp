@@ -38,6 +38,7 @@
                     <td>${book.publisher.pubname}</td>
                     <td>${book.bookType.booktype}</td>
                     <td>
+                        <a href="/books/${book.id}">修改</a>
                         <a href="javascript:;" rel="${book.id}" class="delLink">删除</a>
                     </td>
                 </tr>

@@ -2,51 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ffbd8ad-ccf0-43ce-9ef1-536c9b7eef91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-3.0.0.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/java/com/kaishengit/controller/BookController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/java/com/kaishengit/mapper/BookMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/java/com/kaishengit/pojo/Book.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/java/com/kaishengit/pojo/BookType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/java/com/kaishengit/pojo/Publisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/java/com/kaishengit/service/BookService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/mapper/BookMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/img/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/cryptojs/core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/cryptojs/md5-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/jquery-3.0.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/test/java/com/kaishengit/Service/BookServiceTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/mapper/BookMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/Book.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/BookType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/Publisher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/service/BookService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/mapper/BookMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/test-classes/com/kaishengit/Service/BookServiceTestCase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/logs/access_log.2016-07-05" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zzz.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/../ssm/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ajax1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ajax1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../ssm/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../ssm/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/pom.xml" afterPath="$PROJECT_DIR$/../ssm/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../ssm/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/../ssm/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/mvc-servlet.xml" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/mvc-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/jquery.twbsPagination.min.js" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/jquery.twbsPagination.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/npm.js" afterPath="$PROJECT_DIR$/../ssm/src/main/webapp/static/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/ssm.iml" afterPath="$PROJECT_DIR$/../ssm/ssm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/../ssm/target/classes/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/target/classes/config.properties" afterPath="$PROJECT_DIR$/../ssm/target/classes/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/kaishengit/service/BookServiceTestCase.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/BookController.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/BookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/service/BookService.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/service/BookService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/list_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/list_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-06" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-06" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/list_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/list_jsp.java" />
     </list>
     <ignored path="ssm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,6 +61,24 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - bookstore@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="t_book" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -104,11 +89,33 @@
       <file leaf-file-name="BookController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49056605">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.6295026">
+              <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotFoundException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-33.944443">
+              <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,8 +157,8 @@
       <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.972222">
-              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+            <state vertical-scroll-proportion="-6.1944447">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -168,8 +175,8 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Mapper" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -206,9 +213,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/llit/controller/BookController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java" />
       </list>
     </option>
@@ -280,8 +289,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -477,36 +487,6 @@
               <option name="myItemId" value="kaishengit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaishengit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -534,13 +514,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="exception" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,41 +531,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\javase21\ssm\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\userspace\idea\project21\ssm1\src\main\webapp\static\js" />
       <recent name="D:\javase21\ssm\src\main\webapp\static" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javase21\ssm\src\main\webapp\WEB-INF" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookServiceTestCase.testFindBookById">
-    <configuration default="false" name="BookServiceTestCase.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kaishengit.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ssm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kaishengit.service" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.service.BookServiceTestCase" />
-      <option name="METHOD_NAME" value="testFindById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Maven.tomcat">
     <configuration default="false" name="BookServiceTestCase.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -678,6 +631,32 @@
       <option name="PACKAGE_NAME" value="com.kaishengit.service" />
       <option name="MAIN_CLASS_NAME" value="com.kaishengit.service.BookServiceTestCase" />
       <option name="METHOD_NAME" value="testFindBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookServiceTestCase.testDelBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ssm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.service.BookServiceTestCase" />
+      <option name="METHOD_NAME" value="testDelBook" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1150,19 +1129,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testFindById" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testSave" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testDel" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testUpdateBook" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testFindBookById" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testSave" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testDel" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testUpdateBook" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testFindBookById" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testDelBook" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testFindBookById" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testUpdateBook" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testSave" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testDel" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testFindById" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testSave" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testDelBook" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testFindBookById" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testUpdateBook" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BookServiceTestCase.testDel" />
       </list>
     </recent_temporary>
   </component>
@@ -1179,18 +1158,16 @@
       <workItem from="1467694175133" duration="13481000" />
       <workItem from="1467764458158" duration="10426000" />
       <workItem from="1467775066549" duration="3043000" />
+      <workItem from="1467780940108" duration="1726000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookServiceTestCase_testFindBookById - 2016.07.06 at 12h 49m 28s.xml">
-      <configuration name="BookServiceTestCase.testFindBookById" configurationId="JUnit" />
+    <history-entry file="BookServiceTestCase_testDelBook - 2016.07.06 at 12h 57m 34s.xml">
+      <configuration name="BookServiceTestCase.testDelBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookServiceTestCase_testSave - 2016.07.05 at 23h 03m 05s.xml">
-      <configuration name="BookServiceTestCase.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTestCase_testSave - 2016.07.05 at 23h 04m 58s.xml">
-      <configuration name="BookServiceTestCase.testSave" configurationId="JUnit" />
+    <history-entry file="BookServiceTestCase_testDelBook - 2016.07.06 at 12h 57m 58s.xml">
+      <configuration name="BookServiceTestCase.testDelBook" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BookServiceTestCase_testSave - 2016.07.05 at 23h 09m 02s.xml">
       <configuration name="BookServiceTestCase.testSave" configurationId="JUnit" />
@@ -1199,6 +1176,9 @@
       <configuration name="BookServiceTestCase.testSave" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BookServiceTestCase_testSave - 2016.07.05 at 23h 19m 50s.xml">
+      <configuration name="BookServiceTestCase.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookServiceTestCase_testSave - 2016.07.06 at 13h 10m 11s.xml">
       <configuration name="BookServiceTestCase.testSave" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BookServiceTestCase_testUpdateBook - 2016.07.05 at 23h 21m 27s.xml">
@@ -1215,10 +1195,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26950000" />
+    <option name="totallyTimeSpent" value="28676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1229,7 +1209,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44535074" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1272,6 +1252,54 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1293,6 +1321,16 @@
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1336,6 +1374,16 @@
           <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1494,27 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.972222">
-          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1538,10 +1565,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1944447">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5d69a46f-d85b-4d34-a332-217f9768ad85/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.944443">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d79e1766/18e621ac-3151-428c-9a85-a2bf12113ddf/bookstore.t_book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49056605">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.6295026">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

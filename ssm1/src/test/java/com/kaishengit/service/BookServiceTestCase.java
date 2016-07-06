@@ -48,7 +48,7 @@ public class BookServiceTestCase {
     @Test
     public void testDelBook(){
 
-        bookService.delBook(10);
+        bookService.delBook(1);
     }
     @Test
     public void testUpdateBook(){

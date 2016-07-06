@@ -1,5 +1,6 @@
 package com.kaishengit.controller;
 
+import com.kaishengit.exception.NotFoundException;
 import com.kaishengit.pojo.Book;
 import com.kaishengit.pojo.BookType;
 import com.kaishengit.pojo.Publisher;
@@ -30,27 +31,52 @@ public class BookController {
         return "books/list";
     }
     @RequestMapping(value = "/new",method = RequestMethod.GET)
-    public String saveBook(Model model){
+    public String saveBook(Model model) {
+
         List<Publisher> publisherList = bookService.findAllPublisher();
         List<BookType> bookTypeList = bookService.findAllBookType();
+
         model.addAttribute("pubs",publisherList);
-        model.addAttribute("bookTypes",bookTypeList);
+        model.addAttribute("types",bookTypeList);
+
         return "books/new";
     }
 
     @RequestMapping(value = "/new",method = RequestMethod.POST)
-    public String saveBook(Book book, RedirectAttributes redirectAttributes){
+    public String saveBook(Book book, RedirectAttributes redirectAttributes) {
         bookService.saveBook(book);
+
         redirectAttributes.addFlashAttribute("message","操作成功");
         return "redirect:/books";
     }
 
     @RequestMapping(value = "/{id:\\d+}/del",method = RequestMethod.GET)
-    public String delBook(@PathVariable Integer id,RedirectAttributes redirectAttributes){
-
-
+    public String delBook(@PathVariable Integer id,RedirectAttributes redirectAttributes) {
         bookService.delBook(id);
-        redirectAttributes.addFlashAttribute("message","删除成功");
+
+        redirectAttributes.addFlashAttribute("message","操作成功");
         return "redirect:/books";
     }
+
+    @RequestMapping(value = "/{id:\\d+}",method = RequestMethod.GET)
+    public String editBook(@PathVariable Integer id,Model model) {
+        Book book = bookService.findBookById(id);
+        if(book == null) {
+          throw new NotFoundException();
+        }
+
+        model.addAttribute("types",bookService.findAllBookType());
+        model.addAttribute("pubs",bookService.findAllPublisher());
+        model.addAttribute("book",book);
+        return "books/edit";
+    }
+
+    @RequestMapping(value = "/{id:\\d+}",method = RequestMethod.POST)
+    public String editBookd(Book book,RedirectAttributes redirectAttributes) {
+        bookService.update(book);
+
+        redirectAttributes.addFlashAttribute("message","操作成功");
+        return "redirect:/books";
+    }
+
 }
