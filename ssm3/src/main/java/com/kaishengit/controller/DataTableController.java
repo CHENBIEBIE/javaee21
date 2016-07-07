@@ -23,7 +23,11 @@ public class DataTableController {
     private BookService bookService;
 
     @RequestMapping(value = "/list",method = RequestMethod.GET)
-    public String list() {
+    public String list(Model model) {
+
+        model.addAttribute("types",bookService.findAllBookType());
+        model.addAttribute("pubs",bookService.findAllPublisher());
+
         return "datatables/list";
     }
 
@@ -57,6 +61,14 @@ public class DataTableController {
         result.put("recordsFiltered",bookService.countByKeyWord(keyword));
         result.put("data",bookList);
         return result;
+    }
+
+    @RequestMapping(value = "/new",method = RequestMethod.POST)
+    @ResponseBody
+    public String saveBook(Book book){
+
+        bookService.saveBook(book);
+        return "success";
     }
 
 }
