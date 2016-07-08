@@ -24,8 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="ssm" />
       </profile>
+      <profile default="false" name="Annotation profile for crm" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="crm" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="crm" target="1.7" />
       <module name="ssm" target="1.7" />
     </bytecodeTargetLevel>
   </component>

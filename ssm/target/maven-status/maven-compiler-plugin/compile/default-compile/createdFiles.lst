@@ -1,1 +1,9 @@
+com\kaishengit\pojo\Role.class
+com\kaishengit\mapper\RoleMapper.class
+com\kaishengit\pojo\UserLog.class
+com\kaishengit\service\UserService.class
+com\kaishengit\mapper\UserMapper.class
+com\kaishengit\service\ShiroRealm.class
 com\kaishengit\controller\HomeController.class
+com\kaishengit\mapper\UserLogMapper.class
+com\kaishengit\pojo\User.class

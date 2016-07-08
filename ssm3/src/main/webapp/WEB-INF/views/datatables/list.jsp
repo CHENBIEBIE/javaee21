@@ -209,10 +209,22 @@
             $("#saveForm").submit();
         })
 
-        //删除书籍
+        //删除书籍（事件委托机制）
         //下面方法执行不了删除，因为异步执行网页是超链接有可能没被绑定上
-        $(".delLink").click(function(){
+        /*$(".delLink").click(function(){
             alert("xxx");
+        })*/
+
+        $(document).delegate(".delLink","click",function(){
+            var id = $(this).attr("rel");
+            $.get("datatable/"+id+"/del")
+                    .done(function(data){
+
+                    }).fail(function(){
+
+                        alert("请求服务器异常");
+
+                    })
         })
 
 
