@@ -1,7 +1,9 @@
 package com.kaishengit.controller;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.LockedAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
@@ -39,15 +41,19 @@ public class HomeController {
 
         }
         try {
-            UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username,password);
+            UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, DigestUtils.md5Hex(password));
             subject.login(usernamePasswordToken);
             return "redirect:/home";
+        }catch (LockedAccountException e){
+            redirectAttributes.addFlashAttribute("message","账号已被冻结");
+
+
         }catch (AuthenticationException e){
             redirectAttributes.addFlashAttribute("message","账号或密码错误");
 
-            return "redirect:/";
-        }
 
+        }
+        return "redirect:/";
 
     }
 }
