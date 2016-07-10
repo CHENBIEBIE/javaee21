@@ -53,4 +53,6 @@ public class UserLog implements Serializable {
                 ", loginip='" + loginip + '\'' +
                 '}';
     }
+
+
 }

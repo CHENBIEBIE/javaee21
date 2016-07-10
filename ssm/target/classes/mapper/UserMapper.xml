@@ -8,5 +8,10 @@
     <select id="findByUsername" resultType="User">
         SELECT *FROM t_user WHERE username = #{username}
     </select>
+    
+    <update id="updateUser">
+        UPDATE t_user SET password = #{password}, realname = #{realname}, weixin = #{weixin}, enable = #{enable}
+        WHERE id = #{id}
+    </update>
 
 </mapper>
