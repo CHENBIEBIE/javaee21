@@ -75,14 +75,13 @@ public class HomeController {
     /*
     * 安全退出
     * */
-
     @RequestMapping(value = "/logout",method = RequestMethod.GET)
-    public String logout(RedirectAttributes redirectAttributes){
-
+    public String logout(RedirectAttributes redirectAttributes) {
         SecurityUtils.getSubject().logout();
 
-        redirectAttributes.addFlashAttribute("message",new FlashMassage("安全退出"));
+        redirectAttributes.addFlashAttribute("message",new FlashMassage("你已安全退出"));
         return "redirect:/";
-
     }
+
+
 }

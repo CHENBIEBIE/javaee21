@@ -1,8 +1,8 @@
 package com.kaishengit.pojo;
 
-import javax.management.relation.Role;
+
 import java.io.Serializable;
-import java.security.Timestamp;
+import java.sql.Timestamp;
 
 /**
  * Created by Administrator on 2016/7/8.
