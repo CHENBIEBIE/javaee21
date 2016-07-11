@@ -76,13 +76,24 @@ public class AdminController {
 
     @RequestMapping(value = "/user/checkusername",method = RequestMethod.GET)
     @ResponseBody
-    public String checkUserName(String username){
-
+    public String checkUserName(String username) {
         User user = userService.findUserByUserName(username);
-        if (username==null){
+        if(user == null) {
             return "true";
         }
-
         return "false";
     }
+
+    /**
+     * 重置用户密码位000000
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/users/resetpassword",method = RequestMethod.POST)
+    @ResponseBody
+    public String resetPassword(Integer id) {
+        userService.resetUserPassword(id);
+        return "success";
+    }
+
 }
