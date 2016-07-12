@@ -20,4 +20,9 @@ public class ShiroUtil {
     public static String getCurrentUserName(){
         return getCurrentUser().getUsername();
     }
+
+    public static String getCurrentRealname() {
+
+        return getCurrentUser().getRealname();
+    }
 }
