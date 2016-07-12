@@ -84,4 +84,13 @@ public class HomeController {
     }
 
 
+    /**
+     * 403
+     */
+
+    @RequestMapping(value = "/403",method = RequestMethod.GET)
+    public String error403(){
+        return "error/403";
+    }
+
 }

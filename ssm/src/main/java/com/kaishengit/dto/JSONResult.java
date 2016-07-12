@@ -1,6 +1,12 @@
 package com.kaishengit.dto;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 
+/**
+ * JsonInclude解决了jsondata和message为空问题
+ * 直接过滤掉
+ */
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class JSONResult {
 
     public static final String SUCCESS = "success";
