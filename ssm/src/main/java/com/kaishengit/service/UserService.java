@@ -146,4 +146,17 @@ public class UserService {
         }
 
     }
+
+    public User fundUserById(Integer id) {
+        return userMapper.findById(id);
+    }
+
+    /**
+     * 修改用户信息
+     * @param user
+     */
+
+    public void editUser(User user) {
+       userMapper.updateUser(user);
+    }
 }
