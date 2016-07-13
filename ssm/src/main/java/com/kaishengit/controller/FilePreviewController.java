@@ -28,8 +28,13 @@ public class FilePreviewController {
             throw new NotFoundException();
         }
         FileInputStream inputStream = new FileInputStream(file);
-        return ResponseEntity.ok().contentType(MediaType.IMAGE_JPEG).body(new InputStreamResource(inputStream));
+        return ResponseEntity
+                .ok()//返回200
+                .contentType(MediaType.IMAGE_JPEG)//设置类型
+                .body(new InputStreamResource(inputStream));
     }
+
+
 
 
 }

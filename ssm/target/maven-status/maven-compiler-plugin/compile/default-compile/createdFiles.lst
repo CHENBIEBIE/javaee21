@@ -8,6 +8,7 @@ com\kaishengit\mapper\UserMapper.class
 com\kaishengit\exception\NotFoundException.class
 com\kaishengit\controller\AdminController.class
 com\kaishengit\mapper\UserLogMapper.class
+com\kaishengit\controller\DocumentController.class
 com\kaishengit\pojo\User.class
 com\kaishengit\pojo\Notice.class
 com\kaishengit\dto\FlashMassage.class
@@ -16,10 +17,13 @@ com\kaishengit\util\ServletUtil.class
 com\kaishengit\util\ShiroUtil.class
 com\kaishengit\dto\DataTablesResult.class
 com\kaishengit\pojo\UserLog.class
+com\kaishengit\pojo\Document.class
 com\kaishengit\service\ShiroRealm.class
 com\kaishengit\controller\NoticeController.class
 com\kaishengit\controller\HomeController.class
 com\kaishengit\service\NoticeService.class
+com\kaishengit\service\DocumentService.class
 com\kaishengit\controller\UserController.class
 com\kaishengit\Test.class
 com\kaishengit\util\Strings.class
+com\kaishengit\mapper\DocumentMapper.class
