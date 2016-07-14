@@ -10,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CHENBIEBI-CRM | 文档管理</title>
+    <title>NB-CRM | 文档管理</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -26,7 +26,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
     <%@include file="../include/mainHeader.jsp"%>
-    <jsp:include page="../include/mainSidebar.jsp">
+    <jsp:include page="../include/leftSide.jsp">
         <jsp:param name="menu" value="document"/>
     </jsp:include>
 
@@ -38,7 +38,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="box-title">文档列表-${fid}</h3>
+                    <h3 class="box-title">文档列表</h3>
                     <div class="box-tools">
                         <span id="uploadBtn"><span class="text"><i class="fa fa-upload"></i> 上传文件</span></span>
                         <button class="btn btn-bitbucket btn-xs" id="newDir"><i class="fa fa-folder"></i> 新建文件夹</button>
@@ -48,38 +48,38 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                     <table class="table">
                         <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>名称</th>
-                            <th>大小</th>
-                            <th>创建人</th>
-                            <th>创建时间</th>
-                        </tr>
+                            <tr>
+                                <th></th>
+                                <th>名称</th>
+                                <th>大小</th>
+                                <th>创建人</th>
+                                <th>创建时间</th>
+                            </tr>
                         </thead>
                         <tbody>
-                        <c:if test="${empty documentList}">
-                            <tr>
-                                <td colspan="5">加载数据为空</td>
-                            </tr>
-                        </c:if>
-                        <c:forEach items="${documentList}" var="doc">
-                            <tr>
-                                <c:choose>
-                                    <c:when test="${doc.type == 'dir'}">
-                                        <td><i class="fa fa-folder-o"></i></td>
-                                        <td><a href="/doc?fid=${doc.id}">${doc.name}</a></td>
-                                    </c:when>
-                                    <c:otherwise>
-                                        <td><i class="fa fa-file-o"></i></td>
-                                        <td><a href="/doc/download/${doc.id}">${doc.name}</a></td>
-                                    </c:otherwise>
-                                </c:choose>
+                            <c:if test="${empty documentList}">
+                                <tr>
+                                    <td colspan="5">暂时没有任何数据</td>
+                                </tr>
+                            </c:if>
+                            <c:forEach items="${documentList}" var="doc">
+                                <tr>
+                                    <c:choose>
+                                        <c:when test="${doc.type == 'dir'}">
+                                            <td><i class="fa fa-folder-o"></i></td>
+                                            <td><a href="/doc?fid=${doc.id}">${doc.name}</a></td>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <td><i class="fa fa-file-o"></i></td>
+                                            <td><a href="/doc/download/${doc.id}">${doc.name}</a></td>
+                                        </c:otherwise>
+                                    </c:choose>
 
-                                <td>${doc.size}</td>
-                                <td>${doc.createuser}</td>
-                                <td><fmt:formatDate value="${doc.createtime}" pattern="y-M-d H:m"/></td>
-                            </tr>
-                        </c:forEach>
+                                    <td>${doc.size}</td>
+                                    <td>${doc.createuser}</td>
+                                    <td><fmt:formatDate value="${doc.createtime}" pattern="y-M-d H:m"/></td>
+                                </tr>
+                            </c:forEach>
 
                         </tbody>
                     </table>
@@ -128,6 +128,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/static/plugins/webuploader/webuploader.min.js"></script>
 <script>
     $(function(){
+
         //上传文件
         var uploader = WebUploader.create({
             swf:"/static/plugins/webuploader/Uploader.swf",
@@ -137,6 +138,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             formData:{"fid":"${fid}"},
             auto:true //选择文件后直接上传
         });
+
         //上传文件成功
         uploader.on("startUpload",function(){
             $("#uploadBtn .text").html('<i class="fa fa-spinner fa-spin"></i> 上传中...');
@@ -146,12 +148,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 window.history.go(0);
             }
         });
+
         uploader.on( 'uploadError', function( file ) {
             alert("文件上传失败");
         });
+
         uploader.on( 'uploadComplete', function( file ) {
             $("#uploadBtn .text").html('<i class="fa fa-upload"></i> 上传文件').removeAttr("disabled");;
         });
+
+
+
         //新建文件夹
         $("#newDir").click(function(){
             $("#dirModal").modal({
@@ -160,6 +167,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 keyboard:false
             });
         });
+
         $("#saveDirBtn").click(function(){
             if(!$("#dirname").val()) {
                 $("#dirname").focus();
@@ -167,6 +175,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
             }
             $("#saveDirForm").submit();
         });
+
+
     });
 </script>
 </body>

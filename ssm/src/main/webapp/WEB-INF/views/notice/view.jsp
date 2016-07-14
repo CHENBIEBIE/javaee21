@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CHENBAI | ${notice.title}</title>
+    <title>NB-CRM | ${notice.title}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -19,13 +19,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Theme style -->
     <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
-    <link rel="stylesheet" href="/static/plugins/simditor/styles/simditor.css">
+
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
     <%@include file="../include/mainHeader.jsp"%>
-    <jsp:include page="../include/mainSidebar.jsp">
+    <jsp:include page="../include/leftSide.jsp">
         <jsp:param name="menu" value="notice"/>
     </jsp:include>
 
@@ -38,21 +38,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <li class="active">${notice.title}</li>
             </ol>
         </section>
-
         <!-- Main content -->
         <section class="content">
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="box-title">${notice.title} <small>${notice.realname} <fmt:formatDate value="${notice.createtime}" pattern="Y-M-d H:m"/></small></h3>
-
+                    <h3 class="box-title">${notice.title} <small>${notice.realname} <fmt:formatDate value="${notice.createtime}" pattern="y-M-d H:m"/></small></h3>
                 </div>
                 <div class="box-body">
                     ${notice.context}
+                </div>
+                <div class="box-footer">
 
                 </div>
-
             </div>
-
         </section>
         <!-- /.content -->
     </div>
@@ -68,17 +66,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/static/dist/js/app.min.js"></script>
-<script src="/static/plugins/simditor/scripts/module.min.js"></script>
-<script src="/static/plugins/simditor/scripts/hotkeys.min.js"></script>
-<script src="/static/plugins/simditor/scripts/uploader.min.js"></script>
-<script src="/static/plugins/simditor/scripts/simditor.min.js"></script>
-
-
 <script>
     $(function(){
 
 
-    })
+
+
+
+    });
 </script>
 </body>
 </html>

@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>凯盛CRM-员工管理</title>
+    <title>NB-CRM-员工管理</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -21,11 +21,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
     <link rel="stylesheet" href="/static/plugins/datatables/css/dataTables.bootstrap.min.css">
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini" style="background-image: url(/static/dist/img/11.jpg)">
 <div class="wrapper">
 
     <%@include file="../include/mainHeader.jsp"%>
-    <%@include file="../include/mainSidebar.jsp"%>
+    <%@include file="../include/leftSide.jsp"%>
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -102,7 +102,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <label>角色</label>
                         <select class="form-control" name="roleid">
                             <c:forEach items="${roleList}" var="role">
-                                <option value="${role.id}">${role.rolename}</option>
+                            <option value="${role.id}">${role.rolename}</option>
                             </c:forEach>
                         </select>
                     </div>
@@ -115,6 +115,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
 
 <div class="modal fade" id="editModal">
     <div class="modal-dialog">
@@ -134,7 +135,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <label>员工姓名(真实姓名)</label>
                         <input type="text" class="form-control" name="realname" id="edit_user_realname">
                     </div>
-
                     <div class="form-group">
                         <label>微信号</label>
                         <input type="text" class="form-control" name="weixin" id="edit_user_weixin">
@@ -162,7 +162,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
-</div>
+</div><!-- /.modal -->
 
 
 
@@ -180,6 +180,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/static/plugins/validate/jquery.validate.min.js"></script>
 <script>
     $(function(){
+
         var dataTable = $("#userTable").DataTable({
             serverSide:true,
             ajax:"/admin/users/load",
@@ -204,15 +205,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     return day.format("YYYY-MM-DD HH:mm");
                 }},
                 {"data":function(row){
-
-                    if (row.username == 'admin'){
+                    if(row.username == 'admin') {
                         return "";
-                    }else {
-
-                        return "<a href='javascript:;' class='resetPwd' rel='"+row.id+"'>重置密码</a> &nbsp;&nbsp;"+
-                                "<a href='javascript:;' rel='"+row.id+"' class='edit'>编辑</a> ";
+                    } else {
+                        return "<a href='javascript:;' class='resetPwd' rel='"+row.id+"'>重置密码</a> &nbsp;&nbsp;" +
+                            "<a href='javascript:;' class='edit' rel='"+row.id+"'>编辑</a>";
                     }
-
                 }}
             ],
             "language": { //定义中文
@@ -231,7 +229,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 }
             }
         });
+
         //新增用户
+
         $("#newForm").validate({
             errorClass:"text-danger",
             errorElement:"span",
@@ -282,6 +282,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 });
             }
         });
+
         $("#newBtn").click(function(){
             $("#newForm")[0].reset();
             $("#newModal").modal({
@@ -290,9 +291,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 keyboard:false
             });
         });
+
         $("#saveBtn").click(function(){
             $("#newForm").submit();
         });
+
         //重置密码
         $(document).delegate(".resetPwd","click",function(){
             var id = $(this).attr("rel");
@@ -313,12 +316,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             errorClass:"text-danger",
             errorElement:"span",
             rules:{
-
                 realname:{
                     required:true,
                     rangelength:[2,20]
                 },
-
                 weixin:{
                     required:true
                 }
@@ -328,7 +329,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     required:"请输入真实姓名",
                     rangelength:"真实姓名长度2~20位"
                 },
-
                 weixin:{
                     required:"请输入微信号码"
                 }
@@ -345,40 +345,30 @@ scratch. This page gets rid of all links and provides the needed markup only.
             }
         });
 
-
         $(document).delegate(".edit","click",function(){
             var id = $(this).attr("rel");
             $.get("/admin/users/"+id+".json").done(function(result){
-
-                if (result.state == "success"){
-
-                    //修改前回去id对应的员工信息
+                if(result.state == "success") {
                     $("#edit_user_id").val(result.data.id);
                     $("#edit_user_username").val(result.data.username);
                     $("#edit_user_realname").val(result.data.realname);
                     $("#edit_user_weixin").val(result.data.weixin);
                     $("#edit_user_roleid").val(result.data.roleid);
-                    //应为是布尔类型多以一开始不是选中状态需加toString
                     $("#edit_user_enable").val(result.data.enable.toString());
 
                     $("#editModal").modal({
-
                         show:true,
-                        dropback:"static",
+                        dropback:'static',
                         keyboard:false
-                    })
-
-                }else {
-                    alert(result.message)
+                    });
+                } else {
+                    alert(result.message);
                 }
-
             }).fail(function(){
-
                 alert("服务器异常");
-
             });
-
         });
+
         $("#editBtn").click(function(){
             $("#editForm").submit();
         });

@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CHENBIE-CRM | 新增公告</title>
+    <title>NB-CRM | 新增公告</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -24,7 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
     <%@include file="../include/mainHeader.jsp"%>
-    <jsp:include page="../include/mainSidebar.jsp">
+    <jsp:include page="../include/leftSide.jsp">
         <jsp:param name="menu" value="notice"/>
     </jsp:include>
 
@@ -76,6 +76,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/static/plugins/simditor/scripts/simditor.min.js"></script>
 <script>
     $(function(){
+
         var edit = new Simditor({
             textarea:$("#context"),
             placeholder: '请输入公告内容',
@@ -84,6 +85,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 fileKey:"file"
             }
         });
+
+
         $("#saveBtn").click(function(){
             if(!$("#title").val()) {
                 $("#title").focus();
@@ -95,6 +98,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             }
             $("#newForm").submit();
         });
+
     });
 </script>
 </body>

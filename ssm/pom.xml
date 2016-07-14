@@ -9,7 +9,15 @@
   <name>ssm Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
+
   <dependencies>
+
+    <!--pinyin4j-->
+    <dependency>
+      <groupId>com.belerweb</groupId>
+      <artifactId>pinyin4j</artifactId>
+      <version>2.5.1</version>
+    </dependency>
     <!--单元测试-->
     <dependency>
       <groupId>junit</groupId>

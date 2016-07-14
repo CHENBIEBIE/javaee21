@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper
-        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.kaishengit.mapper.DocumentMapper">
+
     <cache/>
 
     <insert id="save">
@@ -11,7 +10,7 @@
     </insert>
 
     <select id="findByFid" resultType="Document">
-        SELECT * FROM t_document WHERE fid = #{fid} ORDER BY id DESC
+        SELECT * FROM t_document WHERE fid = #{fid} order by id desc
     </select>
 
     <select id="findById" resultType="Document">
@@ -21,4 +20,5 @@
     <delete id="del">
         DELETE FROM t_document WHERE id = #{id}
     </delete>
+
 </mapper>
