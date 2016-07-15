@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class Test {
 
-    public static void main(String[] args) throws BadHanyuPinyinOutputFormatCombination, WriterException, IOException {
+    /*public static void main(String[] args) throws BadHanyuPinyinOutputFormatCombination, WriterException, IOException {
         String mecard = "MECARD:N:陈文彬;ORG:甲骨文;TEL:18637068436;EMAIL:921212200@qq.com;ADR:中国;;";
 
         Hashtable hints = new Hashtable();
@@ -34,5 +34,5 @@ public class Test {
 
 
         MatrixToImageWriter.writeToStream(bitMatrix,"png",new FileOutputStream("D:/qq.png"));
-    }
+    }*/
 }
