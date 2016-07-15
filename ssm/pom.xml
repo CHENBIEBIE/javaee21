@@ -12,12 +12,8 @@
 
   <dependencies>
 
-    <!--pinyin4j-->
-    <dependency>
-      <groupId>com.belerweb</groupId>
-      <artifactId>pinyin4j</artifactId>
-      <version>2.5.1</version>
-    </dependency>
+
+
     <!--单元测试-->
     <dependency>
       <groupId>junit</groupId>
@@ -161,6 +157,21 @@
       <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
       <version>1</version>
+    </dependency>
+
+
+    <!--pinyin4j-->
+    <dependency>
+      <groupId>com.belerweb</groupId>
+      <artifactId>pinyin4j</artifactId>
+      <version>2.5.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>javase</artifactId>
+      <version>3.1.0</version>
     </dependency>
 
   </dependencies>

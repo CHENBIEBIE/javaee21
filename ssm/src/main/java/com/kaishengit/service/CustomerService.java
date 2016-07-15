@@ -129,4 +129,14 @@ public class CustomerService {
         customer.setPinyin(Strings.toPinyiin(customer.getName()));
         customerMapper.update(customer);
     }
+
+    public void openCustomer(Customer customer) {
+        customer.setUserid(null);
+        customerMapper.save(customer);
+    }
+
+    public void moveCust(Customer customer, Integer userid) {
+        customer.setUserid(userid);
+        customerMapper.update(customer);
+    }
 }

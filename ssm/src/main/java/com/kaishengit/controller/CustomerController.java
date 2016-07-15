@@ -152,6 +152,41 @@ public class CustomerController {
         customerService.editCustomer(customer);
         return "success";
     }
+    /**
+     * 公开客户
+     */
+
+    @RequestMapping(value = "/open/{id:\\d+}",method = RequestMethod.GET)
+    public String openCustomer(@PathVariable Integer id){
+
+        Customer customer = customerService.findCustomerById(id);
+        if(customer == null) {
+            throw new NotFoundException();
+        }
+        if(customer.getUserid() != null && !customer.getUserid().equals(ShiroUtil.getCurrentUserID()) && !ShiroUtil.isManager()) {
+            throw new ForbiddenException();
+        }
+
+        customerService.openCustomer(customer);
+
+        return "redirect:/customer"+id;
+    }
+
+    /**
+     * 转移客户
+     */
+    @RequestMapping(value = "/move",method = RequestMethod.POST)
+    public String moveCust(Integer id,Integer userid) {
+        Customer customer = customerService.findCustomerById(id);
+        if(customer == null) {
+            throw new NotFoundException();
+        }
+        if(customer.getUserid() != null && !customer.getUserid().equals(ShiroUtil.getCurrentUserID()) && !ShiroUtil.isManager()) {
+            throw new ForbiddenException();
+        }
+        customerService.moveCust(customer,userid);
+        return "redirect:/customer";
+    }
 
 }
 
