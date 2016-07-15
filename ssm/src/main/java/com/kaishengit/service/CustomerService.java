@@ -91,4 +91,42 @@ public class CustomerService {
             customerMapper.del(id);
         }
     }
+
+    /**
+     * 根据公司id查找所有客户
+     * @param id
+     * @return
+     */
+    public List<Customer> findCustomerByCompanyId(Integer id) {
+        return customerMapper.findByCompanyId(id);
+    }
+
+    /**
+     * 根据客户id查找客户
+     * @param id
+     * @return
+     */
+    public Customer findCustomerById(Integer id) {
+        return customerMapper.findById(id);
+    }
+
+    public void editCustomer(Customer customer) {
+        if(customer.getType().equals(Customer.CUSTOMER_TYPE_COMPANY)) {
+            //找到关联的客户，并修改名字
+            List<Customer> customerList = customerMapper.findByCompanyId(customer.getId());
+            for(Customer cust : customerList) {
+                cust.setCompanyid(customer.getId());
+                cust.setCompanyname(customer.getName());
+                customerMapper.update(cust);
+            }
+        } else {
+            if(customer.getCompanyid() != null) {
+                Customer company = customerMapper.findById(customer.getCompanyid());
+                customer.setCompanyname(company.getName());
+            }
+        }
+
+        customer.setPinyin(Strings.toPinyiin(customer.getName()));
+        customerMapper.update(customer);
+    }
 }
