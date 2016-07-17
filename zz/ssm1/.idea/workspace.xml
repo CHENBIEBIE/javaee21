@@ -1,704 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ffbd8ad-ccf0-43ce-9ef1-536c9b7eef91" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/list_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/list_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/view_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/view_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/document/list_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/document/list_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/include/leftSide_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/include/leftSide_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/include/mainSide_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/include/mainSide_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/notice/list_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/notice/list_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/notice/view_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/notice/view_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/artifacts/crm_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/artifacts/crm_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/artifacts/ssm_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/artifacts/ssm_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_belerweb_pinyin4j_2_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_google_zxing_core_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__com_google_zxing_javase_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__joda_time_joda_time_2_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_33.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_test_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/webContexts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/crm.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/controller/AdminController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/controller/CustomerController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/controller/DocumentController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/controller/FilePreviewController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/controller/HomeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/controller/NoticeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/controller/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/dto/DataTablesResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/dto/FlashMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/dto/JSONResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/exception/ForbiddenException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/exception/NotFoundException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/mapper/CustomerMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/mapper/DocumentMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/mapper/NoticeMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/mapper/RoleMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/mapper/UserLogMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/mapper/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/pojo/Customer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/pojo/Document.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/pojo/Notice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/pojo/Role.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/pojo/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/pojo/UserLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/service/CustomerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/service/DocumentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/service/NoticeService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/service/ShiroRealm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/util/Page.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/util/ServletUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/util/ShiroUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/java/com/kaishengit/util/Strings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/applicationContext-shiro.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/mapper/CustomerMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/mapper/DocumentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/mapper/NoticeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/mapper/RoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/mapper/UserLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/resources/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/mvc-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/admin/userlist.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/customer/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/customer/view.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/document/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/error/403.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/home.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/include/leftSide.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/include/mainHeader.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/notice/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/notice/new.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/notice/view.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/setting/loglist.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/setting/password.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/views/template.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/AdminLTE.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/AdminLTE.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/_all-skins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/_all-skins.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-black-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-black-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-black.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-blue-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-blue-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-blue.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-green-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-green-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-green.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-purple-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-purple-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-purple.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-red-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-red-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-red.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-yellow-light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-yellow-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/css/skins/skin-yellow.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/avatar04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/avatar5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/boxed-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/boxed-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/credit/american-express.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/credit/cirrus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/credit/mastercard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/credit/mestro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/credit/paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/credit/paypal2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/credit/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/default-50x50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/photo3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/photo4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user1-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user2-160x160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user3-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user4-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user5-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user6-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user7-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/img/user8-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/js/app.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/js/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/js/pages/dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/dist/js/pages/dashboard2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.bootstrap4.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.jqueryui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.material.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.material.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.semanticui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.semanticui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.uikit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/dataTables.uikit.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/css/jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/images/Sorting icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.bootstrap4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.jqueryui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.material.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.material.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.semanticui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.semanticui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.uikit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/dataTables.uikit.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/datatables/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/fontawesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/flat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/flat/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/futurico/futurico.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/futurico/futurico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/futurico/futurico@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/icheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/line.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/line@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/line/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/minimal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/minimal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/minimal@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/minimal/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/polaris/polaris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/polaris/polaris.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/polaris/polaris@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/square.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/square@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/iCheck/square/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/jQuery/jQuery-2.2.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/moment/moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/pace/pace.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/pace/pace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/pace/pace.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/pace/pace.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/hotkeys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/hotkeys.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/module.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/simditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/simditor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/uploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/scripts/uploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/styles/editor.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/styles/fonticon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/styles/simditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/simditor/styles/simditor.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/validate/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/Uploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.fis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.flashonly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.flashonly.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.html5only.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.html5only.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.noimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.noimage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.nolog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.nolog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.withoutimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/src/main/webapp/static/plugins/webuploader/webuploader.withoutimage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/ssm.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/applicationContext-shiro.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/controller/AdminController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/controller/CustomerController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/controller/DocumentController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/controller/FilePreviewController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/controller/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/controller/NoticeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/dto/DataTablesResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/dto/FlashMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/dto/JSONResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/exception/ForbiddenException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/exception/NotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/mapper/CustomerMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/mapper/DocumentMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/mapper/NoticeMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/mapper/RoleMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/mapper/UserLogMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/mapper/UserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/Customer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/Document.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/Notice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/pojo/UserLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/service/CustomerService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/service/DocumentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/service/NoticeService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/service/ShiroRealm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/util/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/util/ServletUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/util/ShiroUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/com/kaishengit/util/Strings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/mapper/CustomerMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/mapper/DocumentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/mapper/NoticeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/mapper/RoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/mapper/UserLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/classes/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/conf/logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/conf/tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/conf/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/logs/access_log.2016-07-15" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/list_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/list_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/view_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/customer/view_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/include/leftSide_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/include/leftSide_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/BookMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/BookTypeMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/PublisherMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Book.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/BookType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Publisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/service/BookService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookType.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/new.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/cryptojs/core-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/cryptojs/md5-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-3.0.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mapper/BookType.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-06" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/edit_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/edit_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/list_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/books/list_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/artifacts/ssm_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/artifacts/ssm_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__joda_time_joda_time_2_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_33.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_test_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/controller/BookController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/controller/DataTableController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/exception/NotFoundException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/mapper/BookMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/mapper/BookTypeMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/mapper/PublisherMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/pojo/Book.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/pojo/BookType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/pojo/Publisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/service/BookService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/util/Page.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/java/com/kaishengit/util/Strings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/resources/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/resources/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/resources/mapper/BookMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/resources/mapper/BookTypeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/resources/mapper/PublisherMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/WEB-INF/mvc-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/WEB-INF/views/books/edit.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/WEB-INF/views/books/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/WEB-INF/views/books/new.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/WEB-INF/views/datatables/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.bootstrap4.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.jqueryui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.material.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.material.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.semanticui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.semanticui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.uikit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/dataTables.uikit.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/css/jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/images/Sorting icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.bootstrap4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.jqueryui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.material.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.material.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.semanticui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.semanticui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.uikit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/dataTables.uikit.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/datatables/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/jquery-1.11.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/jquery.twbsPagination.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/main/webapp/static/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/src/test/java/com/kaishengit/service/BookServiceTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/ssm.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/controller/BookController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/controller/DataTableController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/exception/NotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/mapper/BookMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/mapper/BookTypeMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/mapper/PublisherMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/pojo/Book.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/pojo/BookType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/pojo/Publisher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/service/BookService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/util/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/com/kaishengit/util/Strings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/mapper/BookMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/mapper/BookTypeMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/classes/mapper/PublisherMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/tomcat/conf/logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/tomcat/conf/tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/tomcat/conf/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/tomcat/logs/access_log.2016-07-07" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/datatables/list_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm3/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/datatables/list_jsp.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ncrm/target/tomcat/logs/access_log.2016-07-15" afterPath="$PROJECT_DIR$/../ncrm/target/tomcat/logs/access_log.2016-07-15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/BookController.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/exception/NotFoundException.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/exception/NotFoundException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/mapper/BookMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/mapper/BookMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/pojo/Book.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/pojo/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/pojo/BookType.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/pojo/BookType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/pojo/Publisher.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/pojo/Publisher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/service/BookService.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/service/BookService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ncrm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ncrm/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/PublisherMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PublisherMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/npm.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/PublisherMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/PublisherMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    </list>
+    <list default="true" id="9ffbd8ad-ccf0-43ce-9ef1-536c9b7eef91" name="Default" comment="" />
     <ignored path="ssm.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -769,12 +72,66 @@
     <favorites_list name="ssm" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42774567">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state vertical-scroll-proportion="-10.5">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainSide.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/mainSide.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.0555553">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainHeader.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/mainHeader.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.75">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.833334">
+              <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.1480805">
+              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -791,13 +148,13 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Mapper" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -835,6 +192,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/mainHeader.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/mainSide.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" />
       </list>
     </option>
   </component>
@@ -905,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -967,28 +329,6 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -1016,7 +356,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1068,8 +502,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaishengit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -1083,12 +548,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\userspace\idea\project21\ssm1\src\main\webapp\static\js" />
-      <recent name="D:\javase21\ssm\src\main\webapp\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javase21\ssm\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\userspace\idea\project21\zz\ssm1\src\main\resources" />
+      <recent name="D:\userspace\idea\project21\zz\ssm1\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\userspace\idea\project21\zz\ssm1\src\main\webapp\static" />
+      <recent name="D:\userspace\idea\project21\ssm1\src\main\webapp\static\js" />
+      <recent name="D:\javase21\ssm\src\main\webapp\static" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.tomcat">
@@ -1220,6 +688,17 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1714,6 +1193,7 @@
       <workItem from="1468561561340" duration="81000" />
       <workItem from="1468561845736" duration="28000" />
       <workItem from="1468562074712" duration="159000" />
+      <workItem from="1468563611690" duration="4494000" />
     </task>
     <servers />
   </component>
@@ -1750,7 +1230,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29318000" />
+    <option name="totallyTimeSpent" value="33812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1759,7 +1239,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1807,13 +1287,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1842,13 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.067754075">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92904073">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1881,20 +1359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4527027">
-          <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5d69a46f-d85b-4d34-a332-217f9768ad85/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1906,28 +1370,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.369863">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d79e1766/18e621ac-3151-428c-9a85-a2bf12113ddf/bookstore.t_book">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42774567">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.10597303">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/mainHeader.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.75">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/mainSide.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.0555553">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.833334">
+          <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36416185">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1480805">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
           <folding />
         </state>
       </provider>
