@@ -32,6 +32,33 @@
 
         <section class="content">
 
+            <div class="box box-default collapsed-box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">搜索</h3>
+                    <div class="box-tools">
+                        <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"><i class="fa fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <form class="form-inline">
+                        <input type="hidden" id="search_start_time">
+                        <input type="hidden" id="search_end_time">
+                        <input type="text" class="form-control" id="search_name" placeholder="机会名称">
+                        <select class="form-control" class="form-control" id="search_progress">
+                            <option value="">当前进度</option>
+                            <option value="初次接触">初次接触</option>
+                            <option value="确认意向">确认意向</option>
+                            <option value="提供合同">提供合同</option>
+                            <option value="完成交易">完成交易</option>
+                            <option value="交易搁置">交易搁置</option>
+                        </select>
+                        <input type="text" id="rangepicker" class="form-control" placeholder="跟进时间">
+                        <button type="button" id="search_Btn" class="btn btn-default"><i class="fa fa-search"></i> 搜索</button>
+                    </form>
+                </div>
+            </div>
+
+
             <div class="box box-primary">
                 <div class="box-header with-border">
                     <h3 class="box-title">机会列表</h3>
@@ -122,6 +149,67 @@
 <script>
     $(function(){
 
+
+        //显示机会列表
+
+        var dataTable = $("#dataTable").dataTable({
+
+            searching:false,
+            serverSide:true,
+            ajax:{
+                url:"/sales/load",
+                data:function(dataSouce){
+
+                    dataSouce.name = $("#search_name").val();
+                    dataSouce.progress = $("#search_progress").val();
+                    dataSouce.startdate = $("#search_start_time").val();
+                    dataSouce.enddate = $("#search_end_time").val();
+                }
+            },
+            columns:[
+                {"data":function(row){
+                    return "<a href='/sales/"+row.id+"'>"+row.name+"</a>";
+                }},
+                {"data":function(row){
+                    return "<a href='/customer/"+row.custid+"'>"+row.custname+"</a>";
+                }},
+                {"data":function(row){
+                    return "￥" + row.price;
+                }},
+                {"data":function(row) {
+                    if(row.progress == '完成交易') {
+                        return "<span class='label label-success'>"+row.progress+"</span>";
+                    }
+                    if(row.progress == '交易搁置') {
+                        return "<span class='label label-danger'>"+row.progress+"</span>";
+                    }
+                    return row.progress;
+                }},
+                {"data":"lasttime"},
+                {"data":"username"}
+            ],
+            ordering:false,
+            "autoWidth": false,
+            "language": { //定义中文
+                "search": "请输入书籍名称:",
+                "zeroRecords": "没有匹配的数据",
+                "lengthMenu": "显示 _MENU_ 条数据",
+                "info": "显示从 _START_ 到 _END_ 条数据 共 _TOTAL_ 条数据",
+                "infoFiltered": "(从 _MAX_ 条数据中过滤得来)",
+                "loadingRecords": "加载中...",
+                "processing": "处理中...",
+                "paginate": {
+                    "first": "首页",
+                    "last": "末页",
+                    "next": "下一页",
+                    "previous": "上一页"
+                }
+            }
+        });
+
+
+
+        //新建机会
         $("#newForm").validate({
             errorClass:"text-danger",
             errorElement:"span",
@@ -163,6 +251,67 @@
             $("#saveBtn").click(function(){
                 $("#newForm").submit();
             });
+        });
+
+
+
+        //搜索
+        $("#search_Btn").click(function(){
+            dataTable.ajax.reload();
+        });
+
+
+
+        //daterangepicker
+        $("#rangepicker").daterangepicker({
+            format: "YYYY-MM-DD",
+            separator:"~",
+            locale:{
+                "applyLabel": "选择",
+                "cancelLabel": "取消",
+                "fromLabel": "从",
+                "toLabel": "到",
+                "customRangeLabel": "自定义",
+                "weekLabel": "周",
+                "daysOfWeek": [
+                    "一",
+                    "二",
+                    "三",
+                    "四",
+                    "五",
+                    "六",
+                    "日"
+                ],
+                "monthNames": [
+                    "一月",
+                    "二月",
+                    "三月",
+                    "四月",
+                    "五月",
+                    "六月",
+                    "七月",
+                    "八月",
+                    "九月",
+                    "十月",
+                    "十一月",
+                    "十二月"
+                ],
+                "firstDay": 1
+            },
+            ranges: {
+                '今天': [moment(), moment()],
+                '昨天': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                '最近7天': [moment().subtract(6, 'days'), moment()],
+                '最近30天': [moment().subtract(29, 'days'), moment()],
+                '本月': [moment().startOf('month'), moment().endOf('month')],
+                '上个月': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+            }
+        });
+        $('#rangepicker').on('apply.daterangepicker', function(ev, picker) {
+            $("#search_start_time").val(picker.startDate.format('YYYY-MM-DD'));
+            $("#search_end_time").val(picker.endDate.format('YYYY-MM-DD'));
+            //console.log(picker.startDate.format('YYYY-MM-DD'));
+            //console.log(picker.endDate.format('YYYY-MM-DD'));
         });
     })
 

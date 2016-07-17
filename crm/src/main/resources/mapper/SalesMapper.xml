@@ -9,4 +9,49 @@
         INSERT INTO t_sales( name, price, custid, custname, progress, lasttime, userid, username, successtime)
         VALUES (#{name},#{price},#{custid},#{custname},#{progress},#{lasttime},#{userid},#{username},#{successtime})
     </insert>
+
+    <select id="findByParam" resultType="Sales">
+        SELECT * FROM t_sales
+        <where>
+            <if test="userid != null and userid != ''">
+                userid = #{userid}
+            </if>
+            <if test="name != null and name != ''">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="progress != null and progress != ''">
+                and progress = #{progress}
+            </if>
+            <if test="startdate != null and startdate != ''">
+                and date(lasttime) >= #{startdate}
+            </if>
+            <if test="enddate != null and enddate != ''">
+                and date(lasttime) &lt;= #{enddate}
+            </if>
+        </where>
+        order by id desc
+        limit ${start},${length}
+    </select>
+
+
+    <select id="countByParam" resultType="long">
+        SELECT count(*) FROM t_sales
+        <where>
+            <if test="userid != null and userid != ''">
+                userid = #{userid}
+            </if>
+            <if test="name != null and name != ''">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="progress != null and progress != ''">
+                and progress = #{progress}
+            </if>
+            <if test="startdate != null and startdate != ''">
+                and date(lasttime) >= #{startdate}
+            </if>
+            <if test="enddate != null and enddate != ''">
+                and date(lasttime) &lt;= #{enddate}
+            </if>
+        </where>
+    </select>
 </mapper>
