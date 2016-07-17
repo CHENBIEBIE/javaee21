@@ -2,12 +2,16 @@ package com.kaishengit.controller;
 
 import com.google.common.collect.Maps;
 import com.kaishengit.dto.DataTablesResult;
+import com.kaishengit.exception.ForbiddenException;
+import com.kaishengit.exception.NotFoundException;
 import com.kaishengit.pojo.Sales;
 import com.kaishengit.service.CustomerService;
 import com.kaishengit.service.SalesService;
+import com.kaishengit.util.ShiroUtil;
 import com.kaishengit.util.Strings;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -90,7 +94,18 @@ public class SalesController {
     }
 
     @RequestMapping(value = "{id:\\d+}",method = RequestMethod.GET)
-    public String viewSales(){
+    public String viewSales(@PathVariable Integer id,Model model){
+
+        Sales sales = salesService.finSalesById(id);
+        if (sales == null){
+
+            throw new NotFoundException();
+        }
+
+        if(!sales.getUserid().equals(ShiroUtil.getCurrentUserID()) && !ShiroUtil.isManager()) {
+            throw new ForbiddenException();
+        }
+        model.addAttribute("sales",sales);
 
         return "sales/view";
     }

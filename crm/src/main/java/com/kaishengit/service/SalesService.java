@@ -53,4 +53,8 @@ public class SalesService {
         }
         return salesMapper.countByParam(params);
     }
+
+    public Sales finSalesById(Integer id) {
+        return salesMapper.findById(id);
+    }
 }

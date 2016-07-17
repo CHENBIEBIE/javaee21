@@ -32,6 +32,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+        <section class="content-header">
+            <h1>　</h1>
+            <ol class="breadcrumb">
+                <li><a href="/doc"><i class="fa fa-dashboard"></i> 文档列表</a></li>
+                <li class="active">${doc.name}</li>
+            </ol>
+        </section>
 
         <!-- Main content -->
         <section class="content">

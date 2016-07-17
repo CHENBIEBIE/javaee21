@@ -19,7 +19,7 @@
             <if test="name != null and name != ''">
                 and name like concat('%',#{name},'%')
             </if>
-            <!--<if test="progress != null and progress != ''">
+            <if test="progress != null and progress != ''">
                 and progress = #{progress}
             </if>
             <if test="startdate != null and startdate != ''">
@@ -27,7 +27,7 @@
             </if>
             <if test="enddate != null and enddate != ''">
                 and date(lasttime) &lt;= #{enddate}
-            </if>-->
+            </if>
         </where>
         order by id desc
         limit ${start},${length}
@@ -43,7 +43,7 @@
             <if test="name != null and name != ''">
                 and name like concat('%',#{name},'%')
             </if>
-            <!--<if test="progress != null and progress != ''">
+            <if test="progress != null and progress != ''">
                 and progress = #{progress}
             </if>
             <if test="startdate != null and startdate != ''">
@@ -51,7 +51,12 @@
             </if>
             <if test="enddate != null and enddate != ''">
                 and date(lasttime) &lt;= #{enddate}
-            </if>-->
+            </if>
         </where>
+    </select>
+
+
+    <select id="findById" resultType="com.kaishengit.pojo.Sales">
+        SELECT * FROM t_sales WHERE id = #{id}
     </select>
 </mapper>

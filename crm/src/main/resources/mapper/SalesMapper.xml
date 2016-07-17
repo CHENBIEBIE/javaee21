@@ -54,4 +54,9 @@
             </if>
         </where>
     </select>
+
+
+    <select id="findById" resultType="com.kaishengit.pojo.Sales">
+        SELECT * FROM t_sales WHERE id = #{id}
+    </select>
 </mapper>
