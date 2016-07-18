@@ -212,4 +212,23 @@ public class SalesService {
     public SalesFile findSalesFileById(Integer id) {
         return salesFileMapper.findById(id);
     }
+
+    public void editSalesProgress(Integer id, String progress) {
+        Sales sales = salesMapper.findById(id);
+        sales.setProgress(progress);
+        //修改最后跟进时间
+        sales.setLasttime(DateTime.now().toString("yyyy-MM-dd"));
+
+        //判断是否交易完成
+        if("完成交易".equals(progress)) {
+            sales.setSuccesstime(DateTime.now().toString("yyyy-MM-dd"));
+        }
+        salesMapper.update(sales);
+        //添加跟进日志
+        SalesLog salesLog = new SalesLog();
+        salesLog.setType(SalesLog.LOG_TYPE_AUTO);
+        salesLog.setContext(ShiroUtil.getCurrentRealName() + " 更改进度为：" + progress);
+        salesLog.setSalesid(sales.getId());
+        salesLogMapper.save(salesLog);
+    }
 }

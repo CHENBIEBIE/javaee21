@@ -235,6 +235,8 @@
                 $.post("/sales/new",$(form).serialize()).done(function(data){
                     if(data == "success") {
                         $("#newModal").modal('hide');
+
+                        window.history.go(0);
                     }
                 }).fail(function(){
                     alert("服务器异常");
@@ -251,7 +253,7 @@
             });
             $("#saveBtn").click(function(){
                 $("#newForm").submit();
-                dataTable.ajax.reload();
+
             });
         });
 
