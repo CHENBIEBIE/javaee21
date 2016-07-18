@@ -21,6 +21,7 @@ com\kaishengit\pojo\SalesLog.class
 com\kaishengit\service\CustomerService.class
 com\kaishengit\service\NoticeService.class
 com\kaishengit\controller\UserController.class
+com\kaishengit\mapper\SalesFileMapper.class
 com\kaishengit\Test.class
 com\kaishengit\util\Strings.class
 com\kaishengit\dto\JSONResult.class
@@ -34,6 +35,7 @@ com\kaishengit\mapper\CustomerMapper.class
 com\kaishengit\util\ServletUtil.class
 com\kaishengit\dto\DataTablesResult.class
 com\kaishengit\pojo\Document.class
+com\kaishengit\mapper\SalesLogMapper.class
 com\kaishengit\controller\NoticeController.class
 com\kaishengit\controller\HomeController.class
 com\kaishengit\service\DocumentService.class

@@ -24,6 +24,7 @@ D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\dto\DataTablesResul
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\service\CustomerService.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\exception\NotFoundException.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\controller\HomeController.java
+D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\mapper\SalesFileMapper.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\service\DocumentService.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\mapper\DocumentMapper.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\pojo\SalesFile.java
@@ -35,6 +36,7 @@ D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\util\ShiroUtil.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\controller\UserController.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\mapper\NoticeMapper.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\service\ShiroRealm.java
+D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\mapper\SalesLogMapper.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\dto\FlashMessage.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\service\NoticeService.java
 D:\userspace\idea\project21\crm\src\main\java\com\kaishengit\mapper\CustomerMapper.java

@@ -246,10 +246,12 @@
             $("#newForm")[0].reset();
             $("#newModal").modal({
                 show:true,
-                backdrop:'static'
+                backdrop:'static',
+
             });
             $("#saveBtn").click(function(){
                 $("#newForm").submit();
+                dataTable.ajax.reload();
             });
         });
 

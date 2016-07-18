@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper
-        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.kaishengit.mapper.SalesMapper">
-   <cache/>
 
-    <insert id="save" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO t_sales( name, price, custid, custname, progress, lasttime, userid, username, successtime)
-        VALUES (#{name},#{price},#{custid},#{custname},#{progress},#{lasttime},#{userid},#{username},#{successtime})
-    </insert>
+    <cache/>
 
     <select id="findByParam" resultType="Sales">
         SELECT * FROM t_sales
@@ -33,7 +27,6 @@
         limit ${start},${length}
     </select>
 
-
     <select id="countByParam" resultType="long">
         SELECT count(*) FROM t_sales
         <where>
@@ -54,9 +47,23 @@
             </if>
         </where>
     </select>
-
-
+    <select id="findByCustId" resultType="com.kaishengit.pojo.Sales">
+        SELECT * FROM t_sales WHERE custid = #{custId} order by id desc
+    </select>
     <select id="findById" resultType="com.kaishengit.pojo.Sales">
         SELECT * FROM t_sales WHERE id = #{id}
     </select>
+
+    <insert id="save" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO t_sales( name, price, custid, custname, progress, lasttime, userid, username, successtime)
+        VALUES (#{name},#{price},#{custid},#{custname},#{progress},#{lasttime},#{userid},#{username},#{successtime})
+    </insert>
+    <update id="update">
+        UPDATE t_sales SET lasttime = #{lasttime},successtime=#{successtime},progress=#{progress}
+        where id = #{id}
+    </update>
+    <delete id="del">
+        DELETE FROM t_sales WHERE id = #{id}
+    </delete>
+
 </mapper>

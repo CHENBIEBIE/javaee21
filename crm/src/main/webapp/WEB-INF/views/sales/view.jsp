@@ -1,4 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -8,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>>CHENBIE-CRM | 销售机会 | ${sales.name}</title>
+    <title>凯盛CRM | 销售机会 | ${sales.name}</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -18,6 +20,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Theme style -->
     <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
+    <link rel="stylesheet" href="/static/plugins/simditor/styles/simditor.css">
+    <link rel="stylesheet" href="/static/plugins/webuploader/webuploader.css">
+    <style>
+        .timeline>li>.timeline-item{
+            box-shadow:none;
+            -webkit-box-shadow:none;
+        }
+        .files li{
+            padding: 5px;
+        }
+        .webuploader-pick{
+            background-color: #ccc;
+            border: 1px solid #999;
+        }
+    </style>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -29,6 +46,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>　</h1>
             <ol class="breadcrumb">
@@ -37,7 +55,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ol>
         </section>
 
-
+        <!-- Main content -->
         <section class="content">
             <div class="box box-primary">
                 <div class="box-header">
@@ -71,7 +89,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
             <div class="row">
                 <div class="col-md-8">
-                   <%-- <div class="box box-default">
+                    <div class="box box-default">
                         <div class="box-header with-border">
                             <h3 class="box-title">跟进记录</h3>
                             <div class="box-tools">
@@ -104,7 +122,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 </li>
                             </ul>
                         </div>
-                    </div>--%>
+                    </div>
 
 
                 </div>
@@ -142,10 +160,63 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
         </section>
+        <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
 </div>
 <!-- ./wrapper -->
+<div class="modal fade" id="newLogModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">新增跟进记录</h4>
+            </div>
+            <div class="modal-body">
+                <form id="newLogForm" action="/sales/log/new" method="post">
+                    <input type="hidden" name="salesid" value="${sales.id}">
+                    <div class="form-group">
+                        <textarea name="context" id="context"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" id="saveLogBtn">保存</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="progressModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">修改进度</h4>
+            </div>
+            <div class="modal-body">
+                <form id="progressForm" action="/sales/progress/edit" method="post">
+                    <input type="hidden" name="id" value="${sales.id}">
+                    <div class="form-group">
+                        <label>当前进度</label>
+                        <select name="progress" class="form-control">
+                            <option value="初次接触">初次接触</option>
+                            <option value="确认意向">确认意向</option>
+                            <option value="提供合同">提供合同</option>
+                            <option value="完成交易">完成交易</option>
+                            <option value="交易搁置">交易搁置</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" id="saveProgressBtn">保存</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 <!-- REQUIRED JS SCRIPTS -->
 
@@ -155,7 +226,89 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/static/bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/static/dist/js/app.min.js"></script>
+<script src="/static/plugins/timeago/timeago.js"></script>
+<script src="/static/plugins/timeago/timeago_zh_cn.js"></script>
+<script src="/static/plugins/simditor/scripts/module.min.js"></script>
+<script src="/static/plugins/simditor/scripts/hotkeys.min.js"></script>
+<script src="/static/plugins/simditor/scripts/uploader.min.js"></script>
+<script src="/static/plugins/simditor/scripts/simditor.min.js"></script>
+<script src="/static/plugins/webuploader/webuploader.min.js"></script>
+<script>
+    $(function(){
+        //相对时间
+        $(".timeago").timeago();
 
+        //在线编辑器
+        var edit = new Simditor({
+            textarea:$("#context"),
+            placeholder: '请输入跟进内容',
+            toolbar:false
+        });
 
+        //新增跟进记录
+        $("#newLogBtn").click(function(){
+            $("#newLogModal").modal({
+                show:true,
+                backdrop:'static'
+            });
+        });
+        $("#saveLogBtn").click(function(){
+            if(edit.getValue()) {
+                $("#newLogForm").submit();
+            } else {
+                edit.focus();
+            }
+        });
+
+        //修改当前进度
+        $("#editProgress").click(function(){
+            $("#progressModal").modal({
+                show:true,
+                backdrop:'static'
+            });
+        });
+        $("#saveProgressBtn").click(function(){
+            $("#progressForm").submit();
+        });
+
+        //上传文件
+        var uploader = WebUploader.create({
+            swf:"/static/plugins/webuploader/Uploader.swf",
+            pick:"#uploadBtn",
+            server:"/sales/file/upload",
+            fileValL:"file",
+            formData:{"salesid":"${sales.id}"},
+            auto:true //选择文件后直接上传
+        });
+
+        //上传文件成功
+        uploader.on("startUpload",function(){
+            $("#uploadBtn .text").html('<i class="fa fa-spinner fa-spin"></i>');
+        });
+        uploader.on('uploadSuccess', function( file,data ) {
+            if(data._raw == "success") {
+                window.history.go(0);
+            }
+        });
+
+        uploader.on( 'uploadError', function( file ) {
+            alert("文件上传失败");
+        });
+
+        uploader.on( 'uploadComplete', function( file ) {
+            $("#uploadBtn .text").html('<i class="fa fa-upload"></i>').removeAttr("disabled");;
+        });
+
+        <shiro:hasRole name="经理">
+        //删除销售机会
+        $("#delBtn").click(function(){
+            if(confirm("确定要删除该销售机会吗")) {
+                window.location.href = "/sales/del/${sales.id}";
+            }
+        });
+        </shiro:hasRole>
+
+    });
+</script>
 </body>
 </html>

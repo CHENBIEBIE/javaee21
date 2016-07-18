@@ -369,22 +369,19 @@
       <column id="97" parent="10" name="type">
         <data-type>varchar(45)</data-type>
       </column>
-      <column id="98" parent="10" name="logsalesid">
-        <data-type>varchar(45)</data-type>
-      </column>
-      <column id="99" parent="10" name="salesid">
+      <column id="98" parent="10" name="salesid">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <index id="100" parent="10" name="fk_t_sales_log_t_sales1_idx">
+      <index id="99" parent="10" name="fk_t_sales_log_t_sales1_idx">
         <columns>salesid</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="101" parent="10" name="PRIMARY">
+      <key id="100" parent="10" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="102" parent="10" name="fk_t_sales_log_t_sales1">
+      <foreign-key id="101" parent="10" name="fk_t_sales_log_t_sales1">
         <columns>salesid</columns>
         <ref-key>~.t_sales.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>

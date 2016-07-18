@@ -19,4 +19,10 @@ public interface SalesMapper {
 
 
     Sales findById(Integer id);
+
+    void update(Sales sales);
+
+    void del(Integer id);
+
+    List<Sales> findByCustId(Integer custId);
 }
