@@ -22,17 +22,15 @@ public class ChartController {
     @RequestMapping(method = RequestMethod.GET)
     public String home(Model model,
                        @RequestParam(required = false,defaultValue = "") String start,
-                       @RequestParam(required = false,defaultValue = "") String end){
+                       @RequestParam(required = false,defaultValue = "") String end) {
 
         long newCustomerCount = chartService.findNewCustomerCount(start,end);
-
         long saleCount = chartService.findSaleCount(start,end);
-
         Float saleMoney = chartService.findSaleMoney(start,end);
+
         model.addAttribute("newCustomerCount",newCustomerCount);
         model.addAttribute("saleCount",saleCount);
         model.addAttribute("saleMoney",saleMoney);
-
         return "chart/home";
     }
 

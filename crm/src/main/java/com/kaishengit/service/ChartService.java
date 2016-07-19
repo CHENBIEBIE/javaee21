@@ -23,14 +23,15 @@ public class ChartService {
      * @param end
      * @return
      */
-    public Long findNewCustomerCount(String start, String end) {
+    public Long findNewCustomerCount(String start,String end) {
         DateTime now = DateTime.now();
-        if (StringUtils.isNotEmpty(start)){
+        if(StringUtils.isEmpty(start)) {
             start = now.dayOfMonth().withMinimumValue().toString("yyyy-MM-dd");
         }
-        if (StringUtils.isNotEmpty(end)){
+        if(StringUtils.isEmpty(end)) {
             end = now.toString("yyyy-MM-dd");
         }
+
         return customerMapper.findNewCustomerCount(start,end);
     }
 
