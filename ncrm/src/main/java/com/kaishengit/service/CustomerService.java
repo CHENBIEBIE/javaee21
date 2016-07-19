@@ -184,6 +184,10 @@ public class CustomerService {
         return mecard.toString();
     }
 
+    /**
+     * 获取所有的客户
+     * @return
+     */
     public List<Customer> findAllCustomer() {
         Integer userid = null;
         if(ShiroUtil.isEmployee()) {

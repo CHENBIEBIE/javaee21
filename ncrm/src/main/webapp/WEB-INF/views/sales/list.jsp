@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CHENBIE-CRM | 销售机会</title>
+    <title>凯盛CRM | 销售机会</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -26,7 +26,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
     <%@include file="../include/mainHeader.jsp"%>
-    <jsp:include page="../include/mainSide.jsp">
+    <jsp:include page="../include/leftSide.jsp">
         <jsp:param name="menu" value="sales"/>
     </jsp:include>
 
@@ -290,6 +290,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 $.post("/sales/new",$(form).serialize()).done(function(data){
                     if(data == "success") {
                         $("#newModal").modal('hide');
+                        dataTable.ajax.reload();
                     }
                 }).fail(function(){
                     alert("服务器异常");

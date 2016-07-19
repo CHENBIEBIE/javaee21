@@ -13,6 +13,7 @@ import com.kaishengit.exception.NotFoundException;
 import com.kaishengit.pojo.Customer;
 import com.kaishengit.pojo.User;
 import com.kaishengit.service.CustomerService;
+import com.kaishengit.service.TaskService;
 import com.kaishengit.service.UserService;
 import com.kaishengit.util.ShiroUtil;
 import com.kaishengit.util.Strings;
@@ -36,6 +37,8 @@ import java.util.Map;
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
+    @Inject
+    private TaskService taskSeirvice;
 
     @Inject
     private CustomerService customerService;
@@ -209,6 +212,8 @@ public class CustomerController {
         outputStream.flush();
         outputStream.close();
     }
+
+
 
 }
 

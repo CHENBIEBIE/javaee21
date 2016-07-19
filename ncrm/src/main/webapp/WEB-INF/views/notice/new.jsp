@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CHENBIE-CRM | 新增公告</title>
+    <title>凯盛CRM | 新增公告</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -24,7 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
     <%@include file="../include/mainHeader.jsp"%>
-    <jsp:include page="../include/mainSide.jsp">
+    <jsp:include page="../include/leftSide.jsp">
         <jsp:param name="menu" value="notice"/>
     </jsp:include>
 

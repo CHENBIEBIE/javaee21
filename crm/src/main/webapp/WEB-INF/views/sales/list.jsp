@@ -1,12 +1,15 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CHENBIE-CRM | Starter</title>
+    <title>凯盛CRM | 销售机会</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -26,12 +29,11 @@
     <jsp:include page="../include/mainSide.jsp">
         <jsp:param name="menu" value="sales"/>
     </jsp:include>
+
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-
+        <!-- Main content -->
         <section class="content">
-
             <div class="box box-default collapsed-box">
                 <div class="box-header with-border">
                     <h3 class="box-title">搜索</h3>
@@ -57,8 +59,7 @@
                     </form>
                 </div>
             </div>
-
-
+            <%--search box end--%>
             <div class="box box-primary">
                 <div class="box-header with-border">
                     <h3 class="box-title">机会列表</h3>
@@ -87,10 +88,9 @@
         </section>
         <!-- /.content -->
     </div>
-
+    <!-- /.content-wrapper -->
 </div>
-
-
+<!-- ./wrapper -->
 <div class="modal fade" id="newModal">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -134,8 +134,10 @@
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
-</div>
+</div><!-- /.modal -->
+<!-- REQUIRED JS SCRIPTS -->
 
+<!-- jQuery 2.2.0 -->
 <script src="/static/plugins/jQuery/jQuery-2.2.0.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="/static/bootstrap/js/bootstrap.min.js"></script>
@@ -148,18 +150,13 @@
 <script src="/static/plugins/datatables/js/dataTables.bootstrap.min.js"></script>
 <script>
     $(function(){
-
-
-        //显示机会列表
-
-        var dataTable = $("#dataTable").dataTable({
-
+        //DataTables
+        var dataTable = $("#dataTable").DataTable({
             searching:false,
             serverSide:true,
             ajax:{
                 url:"/sales/load",
                 data:function(dataSouce){
-
                     dataSouce.name = $("#search_name").val();
                     dataSouce.progress = $("#search_progress").val();
                     dataSouce.startdate = $("#search_start_time").val();
@@ -206,66 +203,10 @@
                 }
             }
         });
-
-
-
-        //新建机会
-        $("#newForm").validate({
-            errorClass:"text-danger",
-            errorElement:"span",
-            rules:{
-                name:{
-                    required:true
-                },
-                price:{
-                    required:true,
-                    number:true
-                }
-            },
-            messages:{
-                name:{
-                    required:"请输入机会名称"
-                },
-                price:{
-                    required:"请输入价值",
-                    number:"数字格式错误"
-                }
-            },
-            submitHandler:function(form){
-                $.post("/sales/new",$(form).serialize()).done(function(data){
-                    if(data == "success") {
-                        $("#newModal").modal('hide');
-
-                        window.history.go(0);
-                    }
-                }).fail(function(){
-                    alert("服务器异常");
-                });
-            }
-        });
-
-        $("#newBtn").click(function(){
-            $("#newForm")[0].reset();
-            $("#newModal").modal({
-                show:true,
-                backdrop:'static',
-
-            });
-            $("#saveBtn").click(function(){
-                $("#newForm").submit();
-
-            });
-        });
-
-
-
         //搜索
         $("#search_Btn").click(function(){
             dataTable.ajax.reload();
         });
-
-
-
         //daterangepicker
         $("#rangepicker").daterangepicker({
             format: "YYYY-MM-DD",
@@ -317,9 +258,50 @@
             //console.log(picker.startDate.format('YYYY-MM-DD'));
             //console.log(picker.endDate.format('YYYY-MM-DD'));
         });
-    })
-
+        //新增机会
+        $("#newForm").validate({
+            errorClass:"text-danger",
+            errorElement:"span",
+            rules:{
+                name:{
+                    required:true
+                },
+                price:{
+                    required:true,
+                    number:true
+                }
+            },
+            messages:{
+                name:{
+                    required:"请输入机会名称"
+                },
+                price:{
+                    required:"请输入价值",
+                    number:"数字格式错误"
+                }
+            },
+            submitHandler:function(form){
+                $.post("/sales/new",$(form).serialize()).done(function(data){
+                    if(data == "success") {
+                        $("#newModal").modal('hide');
+                        dataTable.ajax.reload();
+                    }
+                }).fail(function(){
+                    alert("服务器异常");
+                });
+            }
+        });
+        $("#newBtn").click(function(){
+            $("#newForm")[0].reset();
+            $("#newModal").modal({
+                show:true,
+                backdrop:'static'
+            });
+        });
+        $("#saveBtn").click(function(){
+            $("#newForm").submit();
+        });
+    });
 </script>
-
 </body>
 </html>

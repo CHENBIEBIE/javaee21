@@ -52,7 +52,7 @@ public class SalesController {
         String draw = request.getParameter("draw");
         String start = request.getParameter("start");
         String length = request.getParameter("length");
-
+        //query param
         String name = request.getParameter("name");
         name = Strings.toUTF8(name);
         String progress = request.getParameter("progress");

@@ -213,6 +213,11 @@ public class SalesService {
         return salesFileMapper.findById(id);
     }
 
+    /**
+     * view页面修改进度
+     * @param id
+     * @param progress
+     */
     public void editSalesProgress(Integer id, String progress) {
         Sales sales = salesMapper.findById(id);
         sales.setProgress(progress);

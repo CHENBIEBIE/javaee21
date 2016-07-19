@@ -166,7 +166,7 @@ public class SalesService {
     public void updateFile(InputStream inputStream, String originalFilename, String contentType, long size, Integer salesid) {
         String newName = UUID.randomUUID().toString();
         if(originalFilename.lastIndexOf(".")   != -1) {
-            newName += originalFilename.substring(originalFilename.lastIndexOf("."));
+             newName += originalFilename.substring(originalFilename.lastIndexOf("."));
         }
 
         try {

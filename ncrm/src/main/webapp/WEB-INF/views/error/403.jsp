@@ -23,7 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
     <%@include file="../include/mainHeader.jsp"%>
-    <%@include file="../include/mainSide.jsp"%>
+    <%@include file="../include/leftSide.jsp"%>
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
