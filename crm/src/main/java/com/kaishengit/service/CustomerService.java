@@ -3,6 +3,7 @@ package com.kaishengit.service;
 import com.google.common.collect.Maps;
 import com.kaishengit.mapper.CustomerMapper;
 import com.kaishengit.pojo.Customer;
+import com.kaishengit.pojo.Task;
 import com.kaishengit.util.ShiroUtil;
 import com.kaishengit.util.Strings;
 import org.apache.commons.lang3.StringUtils;
@@ -193,5 +194,9 @@ public class CustomerService {
         }
 
         return customerMapper.findAll(userid);
+    }
+
+    public List<Task> findAllTask(Task task) {
+        return null;
     }
 }

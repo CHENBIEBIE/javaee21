@@ -11,6 +11,7 @@ import com.kaishengit.dto.DataTablesResult;
 import com.kaishengit.exception.ForbiddenException;
 import com.kaishengit.exception.NotFoundException;
 import com.kaishengit.pojo.Customer;
+import com.kaishengit.pojo.Task;
 import com.kaishengit.pojo.User;
 import com.kaishengit.service.CustomerService;
 import com.kaishengit.service.TaskService;
@@ -213,12 +214,28 @@ public class CustomerController {
         outputStream.close();
     }
 
+    /**
+     * 解决跳转问题
+     * @return
+     */
     @RequestMapping(value = "/task",method = RequestMethod.GET)
     public String go(){
         return "redirect:/task";
     }
 
 
+    /**
+     * 给关联客户添加待办事项
+     * @param task
+     * @param hour
+     * @param min
+     * @return
+     */
+    @RequestMapping(value = "/task/new",method = RequestMethod.POST)
+    public String newTask(Task task, String hour, String min) {
+        taskSeirvice.saveTask(task,hour,min);
+        return "redirect:/customer/"+task.getCustid();
+    }
 
 }
 
