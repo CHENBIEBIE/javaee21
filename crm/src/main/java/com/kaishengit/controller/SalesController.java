@@ -215,4 +215,14 @@ public class SalesController {
         return "redirect:/sales/"+id;
 
     }
+
+
+    /**
+     * 从机会页跳转到其他页面
+     * @return
+     */
+    @RequestMapping(value = "/task",method = RequestMethod.GET)
+    public String go(){
+        return "redirect:/task";
+    }
 }

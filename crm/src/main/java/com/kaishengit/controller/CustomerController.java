@@ -213,6 +213,11 @@ public class CustomerController {
         outputStream.close();
     }
 
+    @RequestMapping(value = "/task",method = RequestMethod.GET)
+    public String go(){
+        return "redirect:/task";
+    }
+
 
 
 }
